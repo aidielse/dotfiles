@@ -189,4 +189,5 @@ stty -ixon
 
 if [ -n "$PYTHONPATH" ]; then export PYTHONPATH=$PYTHONPATH:; else export PYTHONPATH=; fi
 
+export EDITOR=vim
 source /usr/share/virtualenvwrapper/virtualenvwrapper.sh 
