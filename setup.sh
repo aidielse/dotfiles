@@ -1,5 +1,7 @@
 #!/bin/bash
-sudo apt-get -y install gcc-multilib gdb virtualenv virtualenvwrapper
+sudo apt-get -y install socat gcc-multilib gdb virtualenv virtualenvwrapper
+sudo -E -H pip install ropgadget pwntools
+
 wget -q -O- https://github.com/hugsy/gef/raw/master/gef.sh | sh
 
 echo "[+] Configuring environment..."
@@ -24,11 +26,13 @@ ASLR_LOC='/usr/local/sbin/aslr'
 ; echo '      puts("USAGE: aslr [on|off]");' \
 ; echo '    return 0;' \
 ; echo '}') > $ASLRC_LOC
+
 sudo gcc -Wall $ASLRC_LOC -o $ASLR_LOC
 sudo chown root:$REALUSER $ASLR_LOC
 sudo chmod 4550 $ASLR_LOC
 sudo rm $ASLRC_LOC
 
+# copy over dotfiles
 cp ./files/bashrc ~/.bashrc
 cp ./files/gdbinit ~/.gdbinit
 cp -r ./files/vim/ ~/
