@@ -39,6 +39,7 @@ cp -r ./files/vim/ ~/
 mv ~/vim ~/.vim
 cp ./files/vimrc ~/.vimrc
 cp ./files/Xresources ~/.Xresources
+cp ./files/tmux.conf ~/.tmux.conf
 source ~/.bashrc
 echo "[+] Configuration Complete!"
 
