@@ -1,0 +1,8 @@
+syntax on
+set t_Co=256
+colorscheme jellybeans
+
+" general vim config things
+set tabstop=4 softtabstop=4 shiftwidth=4
+set expandtab ai number ruler autoindent
+set mouse=nic
