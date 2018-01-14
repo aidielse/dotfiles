@@ -105,14 +105,17 @@ cp ./dotfiles/files/bashrc ~/.bashrc
 source ~/.bashrc
 echo "[+] Done!"
 
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 echo "[+] Setting up angr!"
 mkvirtualenv angr
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 pip install angr
 deactivate
 echo "[+] Done!"
 
 echo "[+] Setting up angr-pypy!"
 mkvirtualenv -p /usr/bin/pypy angr-pypy
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 pip install angr
 deactivate
 echo "[+] Done!"
