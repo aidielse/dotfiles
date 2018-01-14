@@ -66,6 +66,8 @@ sudo make install
 cd ../bindings
 cd python
 sudo python setup.py install
+
+sudo ln -s /usr/local/lib/libkeystone.so.0 /lib/libkeystone.so
 popd
 echo "[+] Done!"
 
