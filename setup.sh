@@ -45,6 +45,14 @@ echo "[+] Done!"
 mkdir tools
 pushd tools/
 
+
+echo "[+] Setting up pwndbg!"
+git clone https://github.com/pwndbg/pwndbg.git
+pushd pwndbg
+sudo ./setup.sh
+popd
+echo "[+] Done!"
+
 echo "[+] Setting up capstone!"
 git clone https://github.com/aquynh/capstone.git
 pushd capstone
@@ -78,13 +86,6 @@ pushd unicorn
 sudo ./make.sh install
 cd bindings/python
 sudo python setup.py install
-popd
-echo "[+] Done!"
-
-echo "[+] Setting up pwndbg!"
-git clone https://github.com/pwndbg/pwndbg.git
-pushd pwndbg
-sudo ./setup.sh
 popd
 echo "[+] Done!"
 
