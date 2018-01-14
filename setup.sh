@@ -89,17 +89,17 @@ echo "[+] Done!"
 popd
 
 echo "[+] Setting up vim!"
-cp -r ./files/vim/ ~/
+cp -r ./dotfiles/files/vim/ ~/
 mv ~/vim ~/.vim
-cp ./files/vimrc ~/.vimrc
+cp ./dotfiles/files/vimrc ~/.vimrc
 echo "[+] Done!"
 
 echo "[+] Setting up tmux!"
-cp ./files/tmux.conf ~/.tmux.conf
+cp ./dotfiles/files/tmux.conf ~/.tmux.conf
 echo "[+] Done!"
 
 echo "[+] Setting up bashrc!"
-cp ./files/bashrc ~/.bashrc
+cp ./dotfiles/files/bashrc ~/.bashrc
 source ~/.bashrc
 echo "[+] Done!"
 
