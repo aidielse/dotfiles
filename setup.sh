@@ -4,9 +4,9 @@ cd ~
 
 echo "[+] Installing apt packages!"
 sudo dpkg --add-architecture i386
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install virtualenvwrapper libreadline-dev cmake build-essential curl fonts-inconsolata gcc gcc-multilib gdb g++ g++-multilib git ltrace libncurses5-dev linux-source nasm nmap openssl libssl-dev openssh-server python-setuptools ipython python-dev python-lzma python-pip python3-pip screen vim guile-2.0 unzip htop socat valgrind hexdiff libglib2.0-dev libc-dbg:i386 python-virtualenv libffi-dev python2.7-dev build-essential libxml2-dev libxslt1-dev libtool debootstrap debian-archive-keyring libpixman-1-dev tmux cmake
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y install virtualenvwrapper libreadline-dev cmake build-essential curl fonts-inconsolata gcc gcc-multilib gdb g++ g++-multilib git ltrace libncurses5-dev linux-source nasm nmap openssl libssl-dev openssh-server python-setuptools ipython python-dev python-lzma python-pip python3-pip screen vim guile-2.0 unzip htop socat valgrind hexdiff libglib2.0-dev libc-dbg:i386 python-virtualenv libffi-dev python2.7-dev build-essential libxml2-dev libxslt1-dev libtool debootstrap debian-archive-keyring libpixman-1-dev tmux cmake
 echo "[+] Done!"
 
 echo "[+] Installing ropgadget and pwntools!"
