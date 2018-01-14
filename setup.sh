@@ -1,10 +1,19 @@
 #!/bin/bash
-sudo apt-get -y install socat gcc-multilib gdb virtualenv virtualenvwrapper
+
+cd ~
+
+echo "[+] Installing apt packages!"
+sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install virtualenvwrapper libreadline-dev cmake build-essential curl fonts-inconsolata gcc gcc-multilib gdb g++ g++-multilib git ltrace libncurses5-dev linux-source nasm nmap openssl libssl-dev openssh-server python-setuptools ipython python-dev python-lzma python-pip python3-pip screen vim guile-2.0 unzip htop socat valgrind hexdiff libglib2.0-dev libc-dbg:i386 python-virtualenv libffi-dev python2.7-dev build-essential libxml2-dev libxslt1-dev libtool debootstrap debian-archive-keyring libpixman-1-dev tmux cmake
+echo "[+] Done!"
+
+echo "[+] Installing ropgadget and pwntools!"
 sudo -E -H pip install ropgadget pwntools
+echo "[+] Done!"
 
-wget -q -O- https://github.com/hugsy/gef/raw/master/gef.sh | sh
-
-echo "[+] Configuring environment..."
+echo "[+] Installing easy aslr!"
 # Install easy-aslr
 ASLRC_LOC='/tmp/aslr.c'
 ASLR_LOC='/usr/local/sbin/aslr'
@@ -31,15 +40,79 @@ sudo gcc -Wall $ASLRC_LOC -o $ASLR_LOC
 sudo chown root:$REALUSER $ASLR_LOC
 sudo chmod 4550 $ASLR_LOC
 sudo rm $ASLRC_LOC
+echo "[+] Done!"
 
-# copy over dotfiles
-cp ./files/bashrc ~/.bashrc
-cp ./files/gdbinit ~/.gdbinit
+mkdir tools
+pushd tools/
+
+echo "[+] Setting up capstone!"
+git clone https://github.com/aquynh/capstone.git
+pushd capstone
+./make.sh
+sudo ./make.sh install
+cd bindings
+cd python
+sudo python setup.py install
+popd
+echo "[+] Done!"
+
+echo "[+] Setting up keystone!"
+git clone https://github.com/keystone-engine/keystone.git
+pushd keystone
+mkdir build
+cd build
+../make-share.sh
+sudo make install
+cd ../bindings
+cd python
+sudo python setup.py install
+popd
+echo "[+] Done!"
+
+echo "[+] Setting up unicorn!"
+git clone https://github.com/unicorn-engine/unicorn.git
+pushd unicorn
+./make.sh
+sudo ./make.sh install
+cd bindings/python
+sudo python setup.py install
+popd
+echo "[+] Done!"
+
+echo "[+] Setting up pwndbg!"
+git clone https://github.com/pwndbg/pwndbg.git
+pushd pwndbg
+sudo ./setup.sh
+popd
+echo "[+] Done!"
+
+popd
+
+echo "[+] Setting up vim!"
 cp -r ./files/vim/ ~/
 mv ~/vim ~/.vim
 cp ./files/vimrc ~/.vimrc
-cp ./files/Xresources ~/.Xresources
-cp ./files/tmux.conf ~/.tmux.conf
-source ~/.bashrc
-echo "[+] Configuration Complete!"
+echo "[+] Done!"
 
+echo "[+] Setting up tmux!"
+cp ./files/tmux.conf ~/.tmux.conf
+echo "[+] Done!"
+
+echo "[+] Setting up bashrc!"
+cp ./files/bashrc ~/.bashrc
+source ~/.bashrc
+echo "[+] Done!"
+
+echo "[+] Setting up angr!"
+mkvirtualenv angr
+pip install angr
+deactivate
+echo "[+] Done!"
+
+echo "[+] Setting up angr-pypy!"
+mkvirtualenv -p /usr/bin/pypy angr-pypy
+pip install angr
+deactivate
+echo "[+] Done!"
+
+echo "[+] Setup Complete!"
