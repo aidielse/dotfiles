@@ -76,6 +76,7 @@ cd python
 sudo python setup.py install
 
 sudo ln -s /usr/local/lib/libkeystone.so.0 /lib/libkeystone.so
+sudo ln -s /usr/local/lib/libkeystone.so.0 /lib/libkeystone.so.0
 popd
 echo "[+] Done!"
 
