@@ -115,4 +115,5 @@ pip install angr
 deactivate
 echo "[+] Done!"
 
-echo "[+] Setup Complete!"
+echo "[+] Setup Complete! rebooting."
+sudo reboot
