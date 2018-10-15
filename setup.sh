@@ -1,16 +1,37 @@
 #!/bin/bash
 
-cd ~
+pushd ~
 
 echo "[+] Installing apt packages!"
 sudo dpkg --add-architecture i386
 sudo apt-get -y update
 sudo apt-get -y upgrade
-sudo apt-get -y install virtualenvwrapper libreadline-dev cmake build-essential curl fonts-inconsolata gcc gcc-multilib gdb g++ g++-multilib git ltrace libncurses5-dev linux-source nasm nmap openssl libssl-dev openssh-server python-setuptools ipython python-dev python-lzma python-pip python3-pip screen vim guile-2.0 unzip htop socat valgrind hexdiff libglib2.0-dev libc-dbg:i386 python-virtualenv libffi-dev python2.7-dev build-essential libxml2-dev libxslt1-dev libtool debootstrap debian-archive-keyring libpixman-1-dev tmux cmake pypy pypy-dev net-tools clang-5.0 clang-tidy-5.0 clang-format-5.0 build-essential pkg-config python-yaml libyaml-0-2 libyaml-dev systemd htop tmux tree --fix-missing
+
+# gcc
+sudo apt-get -y install gcc gcc-multilib gdb g++ g++-multilib --fix-missing
+
+# essentials
+sudo apt-get -y install git make cmake build-essential ltrace curl linux-source nasm openssl openssh-server systemd htop tmux tree fonts-inconsolata screen vim unzip htop socat debootstrap debian-archive-keyring net-tools pkg-config wget --fix-missing
+
+sudo apt-get -y install libtool libreadline-dev libncurses5-dev libglib2.0-dev libc-dbg:i386 libffi-dev libxml2-dev libxslt1-dev libpixman-1-dev libyaml-0-2 libyaml-dev --fix-missing
+
+# Python
+sudo apt-get -y install python-setuptools python2.7 python3 python2.7-dev python3-dev virtualenvwrapper ipython python-lzma python3-pip python-virtualenv pypy pypy-dev python-yaml  --fix-missing
+
+# llvm
+sudo apt-get -y install libllvm6.0 llvm-6.0 llvm-6.0-dev llvm-6.0-doc llvm-6.0-examples llvm-6.0-runtime --fix-missing
+
+# clang
+sudo apt-get -y install clang-6.0 clang-tools-6.0 clang-6.0-doc libclang-common-6.0-dev libclang-6.0-dev libclang1-6.0 clang-format-6.0 python-clang-6.0 clang --fix-missing
+
+# Misc
+sudo apt-get -y install nmap guile-2.0 valgrind hexdiff qemu --fix-missing
+
+
 echo "[+] Done!"
 
-echo "[+] Installing ropgadget and pwntools!"
-sudo -E -H pip install ropgadget pwntools
+echo "[+] Installing pwntools!"
+sudo -E -H pip2 install pwntools
 echo "[+] Done!"
 
 echo "[+] Installing easy aslr!"
@@ -44,7 +65,6 @@ echo "[+] Done!"
 
 mkdir tools
 pushd tools/
-
 
 echo "[+] Setting up pwndbg!"
 git clone https://github.com/pwndbg/pwndbg.git
@@ -92,21 +112,6 @@ echo "[+] Done!"
 
 popd
 
-echo "[+] Setting up vim!"
-cp -r ./dotfiles/files/vim/ ~/
-mv ~/vim ~/.vim
-cp ./dotfiles/files/vimrc ~/.vimrc
-echo "[+] Done!"
-
-echo "[+] Setting up tmux!"
-cp ./dotfiles/files/tmux.conf ~/.tmux.conf
-echo "[+] Done!"
-
-echo "[+] Setting up bashrc!"
-cp ./dotfiles/files/bashrc ~/.bashrc
-source ~/.bashrc
-echo "[+] Done!"
-
 source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 echo "[+] Setting up angr!"
 mkvirtualenv angr
@@ -122,5 +127,6 @@ pip install angr
 deactivate
 echo "[+] Done!"
 
-echo "[+] Setup Complete! rebooting."
-sudo reboot
+echo "[+] Setup Complete! You should manually reboot."
+
+popd
