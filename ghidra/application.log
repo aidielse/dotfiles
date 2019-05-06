@@ -705,3 +705,4 @@ after you exit and restart Ghidra.
 2019-05-05 18:51:47 DEBUG (PackedDatabaseCache) Using cached packed database: /Users/aaronsedlacek/Desktop/ghidra_9.0.2/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
 2019-05-05 20:01:47 INFO  (RecoveryMgr) Sun May 05 20:01:47 EDT 2019 Recovery snapshot created: /Users/aaronsedlacek/sadfasdf.rep/idata/00/~00000000.db/snapshotA.grf  
 2019-05-05 20:02:33 INFO  (DialogManager) Successfully exported CodeBrowserDarkNight to /Users/aaronsedlacek/Desktop/Hacking/dotfiles/starlight.tool  
+2019-05-05 20:06:47 INFO  (RecoveryMgr) Sun May 05 20:06:47 EDT 2019 Recovery snapshot created: /Users/aaronsedlacek/sadfasdf.rep/idata/00/~00000000.db/snapshotB.grf  

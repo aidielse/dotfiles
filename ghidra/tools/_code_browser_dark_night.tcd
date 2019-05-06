@@ -54,9 +54,8 @@
                 <STATE NAME="Display.Maximum characters in a code line" TYPE="int" VALUE="160" />
                 <STATE NAME="Decompiler Max-Payload (MBytes)" TYPE="int" VALUE="250" />
                 <STATE NAME="Display.Display PLATE comments" TYPE="boolean" VALUE="true" />
-                <STATE NAME="Display.Display Warning comments" TYPE="boolean" VALUE="false" />
                 <WRAPPED_OPTION NAME="Display.Color for Keywords" CLASS="ghidra.framework.options.WrappedColor">
-                    <STATE NAME="color" TYPE="int" VALUE="-6383360" />
+                    <STATE NAME="color" TYPE="int" VALUE="-2721480" />
                 </WRAPPED_OPTION>
                 <WRAPPED_OPTION NAME="Display.Background Color" CLASS="ghidra.framework.options.WrappedColor">
                     <STATE NAME="color" TYPE="int" VALUE="-2894893" />
@@ -80,7 +79,7 @@
                     <STATE NAME="color" TYPE="int" VALUE="-12434878" />
                 </WRAPPED_OPTION>
                 <WRAPPED_OPTION NAME="Display.Color for Types" CLASS="ghidra.framework.options.WrappedColor">
-                    <STATE NAME="color" TYPE="int" VALUE="-2926336" />
+                    <STATE NAME="color" TYPE="int" VALUE="-6533560" />
                 </WRAPPED_OPTION>
                 <WRAPPED_OPTION NAME="Display.Color for Variables" CLASS="ghidra.framework.options.WrappedColor">
                     <STATE NAME="color" TYPE="int" VALUE="-16745473" />
@@ -89,9 +88,9 @@
                     <STATE NAME="color" TYPE="int" VALUE="-15975936" />
                 </WRAPPED_OPTION>
                 <WRAPPED_OPTION NAME="Display.Font" CLASS="ghidra.framework.options.WrappedFont">
-                    <STATE NAME="size" TYPE="int" VALUE="16" />
+                    <STATE NAME="size" TYPE="int" VALUE="14" />
                     <STATE NAME="style" TYPE="int" VALUE="1" />
-                    <STATE NAME="family" TYPE="string" VALUE="Helvetica Neue" />
+                    <STATE NAME="family" TYPE="string" VALUE="Rockwell" />
                 </WRAPPED_OPTION>
                 <WRAPPED_OPTION NAME="Display.Color for Function names" CLASS="ghidra.framework.options.WrappedColor">
                     <STATE NAME="color" TYPE="int" VALUE="-14135297" />
@@ -105,7 +104,7 @@
                 <WRAPPED_OPTION NAME="Font" CLASS="ghidra.framework.options.WrappedFont">
                     <STATE NAME="size" TYPE="int" VALUE="14" />
                     <STATE NAME="style" TYPE="int" VALUE="1" />
-                    <STATE NAME="family" TYPE="string" VALUE="Helvetica" />
+                    <STATE NAME="family" TYPE="string" VALUE="Rockwell" />
                 </WRAPPED_OPTION>
             </CATEGORY>
             <CATEGORY NAME="Function Graph">
@@ -120,7 +119,7 @@
                 <WRAPPED_OPTION NAME="Font" CLASS="ghidra.framework.options.WrappedFont">
                     <STATE NAME="size" TYPE="int" VALUE="16" />
                     <STATE NAME="style" TYPE="int" VALUE="0" />
-                    <STATE NAME="family" TYPE="string" VALUE="Helvetica Neue" />
+                    <STATE NAME="family" TYPE="string" VALUE="RuneScape UF" />
                 </WRAPPED_OPTION>
             </CATEGORY>
             <CATEGORY NAME="Listing Display">
@@ -131,9 +130,9 @@
                     <STATE NAME="color" TYPE="int" VALUE="-16777216" />
                 </WRAPPED_OPTION>
                 <WRAPPED_OPTION NAME="BASE FONT" CLASS="ghidra.framework.options.WrappedFont">
-                    <STATE NAME="size" TYPE="int" VALUE="16" />
+                    <STATE NAME="size" TYPE="int" VALUE="14" />
                     <STATE NAME="style" TYPE="int" VALUE="1" />
-                    <STATE NAME="family" TYPE="string" VALUE="Helvetica Neue" />
+                    <STATE NAME="family" TYPE="string" VALUE="Rockwell" />
                 </WRAPPED_OPTION>
                 <WRAPPED_OPTION NAME="XRef Write Color" CLASS="ghidra.framework.options.WrappedColor">
                     <STATE NAME="color" TYPE="int" VALUE="-16755325" />
@@ -294,7 +293,7 @@
                     </ROW>
                 </FORMAT>
             </XML>
-            <STATE NAME="DividerLocation" TYPE="int" VALUE="70" />
+            <STATE NAME="DividerLocation" TYPE="int" VALUE="62" />
             <XML NAME="Instruction/Data">
                 <FORMAT>
                     <ROW>
@@ -339,11 +338,11 @@
                 <FORMAT>
                     <ROW>
                         <FIELD WIDTH="20" ENABLED="true" />
-                        <FIELD NAME="Memory Block Start" WIDTH="440" ENABLED="true" />
+                        <FIELD NAME="Memory Block Start" WIDTH="1070" ENABLED="true" />
                     </ROW>
                     <ROW>
                         <FIELD WIDTH="20" ENABLED="true" />
-                        <FIELD NAME="Plate Comment" WIDTH="440" ENABLED="true" />
+                        <FIELD NAME="Plate Comment" WIDTH="1070" ENABLED="true" />
                     </ROW>
                 </FORMAT>
             </XML>
@@ -707,10 +706,10 @@
                                         <COMPONENT_INFO NAME="Function Graph" OWNER="FunctionGraphPlugin" TITLE="Function Graph" ACTIVE="false" GROUP="Function Graph" INSTANCE_ID="3265467729648886925" />
                                     </COMPONENT_NODE>
                                     <COMPONENT_NODE TOP_INFO="0">
-                                        <COMPONENT_INFO NAME="Decompiler" OWNER="DecompilePlugin" TITLE="Decompile: print_menu" ACTIVE="true" GROUP="Default" INSTANCE_ID="3265467728564659335" />
+                                        <COMPONENT_INFO NAME="Decompiler" OWNER="DecompilePlugin" TITLE="Decompile: FUN_080488a5" ACTIVE="true" GROUP="Default" INSTANCE_ID="3265467728564659335" />
                                     </COMPONENT_NODE>
                                 </SPLIT_NODE>
-                                <COMPONENT_NODE TOP_INFO="0">
+                                <COMPONENT_NODE TOP_INFO="1">
                                     <COMPONENT_INFO NAME="Data Window" OWNER="DataWindowPlugin" TITLE="Defined Data" ACTIVE="false" GROUP="Default" INSTANCE_ID="3265468473645732584" />
                                     <COMPONENT_INFO NAME="Defined Strings" OWNER="ViewStringsPlugin" TITLE="Defined Strings" ACTIVE="false" GROUP="Default" INSTANCE_ID="3265468473645732588" />
                                     <COMPONENT_INFO NAME="Equates Table" OWNER="EquateTablePlugin" TITLE="Equates Table" ACTIVE="false" GROUP="Default" INSTANCE_ID="3265468472072868585" />
@@ -800,37 +799,6 @@
                     </Table_State>
                 </XML>
             </PREFERENCE_STATE>
-            <PREFERENCE_STATE NAME="SymbolTablePlugin">
-                <STATE NAME="SELECTION_NAVIGATION_SELECTED_STATE" TYPE="boolean" VALUE="true" />
-            </PREFERENCE_STATE>
-            <PREFERENCE_STATE NAME="ghidra.app.plugin.core.bookmark.BookmarkTableModel:Type:Category:Description:Location:Label:Code Unit:">
-                <XML NAME="COLUMN_DATA">
-                    <Table_State>
-                        <COLUMN NAME="ghidra.app.plugin.core.bookmark.BookmarkTableModel$TypeTableColumn.Type" WIDTH="497" VISIBLE="true" />
-                        <COLUMN NAME="ghidra.app.plugin.core.bookmark.BookmarkTableModel$CategoryTableColumn.Category" WIDTH="90" VISIBLE="true" />
-                        <COLUMN NAME="ghidra.app.plugin.core.bookmark.BookmarkTableModel$DescriptionTableColumn.Description" WIDTH="199" VISIBLE="true" />
-                        <COLUMN NAME="ghidra.util.table.field.AddressTableColumn.Location" WIDTH="89" VISIBLE="true" />
-                        <COLUMN NAME="ghidra.util.table.field.LabelTableColumn.Label" WIDTH="199" VISIBLE="true" />
-                        <COLUMN NAME="ghidra.util.table.field.CodeUnitTableColumn.Code Unit" WIDTH="149" VISIBLE="true" />
-                        <COLUMN NAME="ghidra.util.table.field.PreviewTableColumn.Preview" WIDTH="500" VISIBLE="false" />
-                        <COLUMN NAME="ghidra.util.table.field.MemoryTypeProgramLocationBasedTableColumn.Mem Type" WIDTH="500" VISIBLE="false" />
-                        <COLUMN NAME="ghidra.util.table.field.FunctionNameTableColumn.Function Name" WIDTH="500" VISIBLE="false" />
-                        <COLUMN NAME="ghidra.util.table.field.ByteCountProgramLocationBasedTableColumn.Byte Count" WIDTH="500" VISIBLE="false" />
-                        <COLUMN NAME="ghidra.util.table.field.ReferenceCountToAddressTableColumn.Reference Count" WIDTH="500" VISIBLE="false" />
-                        <COLUMN NAME="ghidra.util.table.field.NamespaceTableColumn.Namespace" WIDTH="500" VISIBLE="false" />
-                        <COLUMN NAME="ghidra.util.table.field.EOLCommentTableColumn.EOL Comment" WIDTH="500" VISIBLE="false" />
-                        <COLUMN NAME="ghidra.util.table.field.OffcutReferenceCountToAddressTableColumn.Offcut Reference Count" WIDTH="500" VISIBLE="false" />
-                        <COLUMN NAME="ghidra.util.table.field.FunctionParameterCountTableColumn.Param Count" WIDTH="500" VISIBLE="false" />
-                        <COLUMN NAME="ghidra.util.table.field.MemorySectionProgramLocationBasedTableColumn.Mem Block" WIDTH="500" VISIBLE="false" />
-                        <COLUMN NAME="ghidra.util.table.field.BytesTableColumn.Bytes" WIDTH="500" VISIBLE="false" />
-                        <COLUMN NAME="ghidra.util.table.field.SourceTypeTableColumn.Symbol Source" WIDTH="500" VISIBLE="false" />
-                        <COLUMN NAME="ghidra.util.table.field.SymbolTypeTableColumn.Symbol Type" WIDTH="500" VISIBLE="false" />
-                        <TABLE_SORT_STATE>
-                            <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="0" SORT_DIRECTION="ascending" SORT_ORDER="1" />
-                        </TABLE_SORT_STATE>
-                    </Table_State>
-                </XML>
-            </PREFERENCE_STATE>
             <PREFERENCE_STATE NAME="ghidra.app.plugin.core.datawindow.DataTableModel:Data:Location:Type:Size:">
                 <XML NAME="COLUMN_DATA">
                     <Table_State>
@@ -853,17 +821,6 @@
                         <COLUMN NAME="ghidra.util.table.field.PreviewTableColumn" VISIBLE="false" WIDTH="75" />
                         <TABLE_SORT_STATE>
                             <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="1" SORT_DIRECTION="ascending" SORT_ORDER="1" />
-                        </TABLE_SORT_STATE>
-                    </Table_State>
-                </XML>
-            </PREFERENCE_STATE>
-            <PREFERENCE_STATE NAME="ghidra.app.plugin.core.references.ExternalNamesTableModel:Name:Ghidra Program:">
-                <XML NAME="COLUMN_DATA">
-                    <Table_State>
-                        <COLUMN NAME="Name" VISIBLE="true" WIDTH="219" />
-                        <COLUMN NAME="Ghidra Program" VISIBLE="true" WIDTH="218" />
-                        <TABLE_SORT_STATE>
-                            <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="0" SORT_DIRECTION="ascending" SORT_ORDER="1" />
                         </TABLE_SORT_STATE>
                     </Table_State>
                 </XML>
@@ -920,56 +877,11 @@
                     </Table_State>
                 </XML>
             </PREFERENCE_STATE>
-            <PREFERENCE_STATE NAME="KNOWN_EXTENSIONS">
-                <ARRAY NAME="KNOWN_EXTENSIONS" TYPE="string" />
-            </PREFERENCE_STATE>
-            <PREFERENCE_STATE NAME="ghidra.framework.plugintool.dialog.PluginInstallerTableModel:Installation Status:Status:Name:Description:Category:">
-                <XML NAME="COLUMN_DATA">
-                    <Table_State>
-                        <COLUMN NAME="ghidra.framework.plugintool.dialog.PluginInstallerTableModel$PluginInstalledColumn" VISIBLE="true" WIDTH="25" />
-                        <COLUMN NAME="ghidra.framework.plugintool.dialog.PluginInstallerTableModel$PluginStatusColumn" VISIBLE="true" WIDTH="24" />
-                        <COLUMN NAME="ghidra.framework.plugintool.dialog.PluginInstallerTableModel$PluginNameColumn" VISIBLE="true" WIDTH="211" />
-                        <COLUMN NAME="ghidra.framework.plugintool.dialog.PluginInstallerTableModel$PluginDescriptionColumn" VISIBLE="true" WIDTH="211" />
-                        <COLUMN NAME="ghidra.framework.plugintool.dialog.PluginInstallerTableModel$PluginCategoryColumn" VISIBLE="true" WIDTH="210" />
-                        <TABLE_SORT_STATE>
-                            <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="2" SORT_DIRECTION="ascending" SORT_ORDER="1" />
-                        </TABLE_SORT_STATE>
-                    </Table_State>
-                </XML>
-            </PREFERENCE_STATE>
             <PREFERENCE_STATE NAME="ghidra.app.plugin.core.datapreview.DataTypePreviewPlugin$MyTableModel:Name:Preview:">
                 <XML NAME="COLUMN_DATA">
                     <Table_State>
                         <COLUMN NAME="Name" VISIBLE="true" WIDTH="682" />
                         <COLUMN NAME="Preview" VISIBLE="true" WIDTH="681" />
-                        <TABLE_SORT_STATE>
-                            <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="0" SORT_DIRECTION="ascending" SORT_ORDER="1" />
-                        </TABLE_SORT_STATE>
-                    </Table_State>
-                </XML>
-            </PREFERENCE_STATE>
-            <PREFERENCE_STATE NAME="ghidra.app.plugin.core.strings.ViewStringsTableModel:Location:String:">
-                <XML NAME="COLUMN_DATA">
-                    <Table_State>
-                        <COLUMN NAME="ghidra.util.table.field.AddressTableColumn" VISIBLE="true" WIDTH="210" />
-                        <COLUMN NAME="ghidra.app.plugin.core.strings.ViewStringsTableModel$DataValueColumn" VISIBLE="true" WIDTH="210" />
-                        <COLUMN NAME="ghidra.util.table.field.OffcutReferenceCountToAddressTableColumn" VISIBLE="false" WIDTH="75" />
-                        <COLUMN NAME="ghidra.util.table.field.SymbolTypeTableColumn" VISIBLE="false" WIDTH="75" />
-                        <COLUMN NAME="ghidra.util.table.field.MemorySectionProgramLocationBasedTableColumn" VISIBLE="false" WIDTH="75" />
-                        <COLUMN NAME="ghidra.util.table.field.ReferenceCountToAddressTableColumn" VISIBLE="false" WIDTH="75" />
-                        <COLUMN NAME="ghidra.util.table.field.FunctionBodySizeTableColumn" VISIBLE="false" WIDTH="75" />
-                        <COLUMN NAME="ghidra.util.table.field.FunctionSignatureTableColumn" VISIBLE="false" WIDTH="75" />
-                        <COLUMN NAME="ghidra.util.table.field.FunctionParameterCountTableColumn" VISIBLE="false" WIDTH="75" />
-                        <COLUMN NAME="ghidra.util.table.field.NamespaceTableColumn" VISIBLE="false" WIDTH="75" />
-                        <COLUMN NAME="ghidra.util.table.field.FunctionNameTableColumn" VISIBLE="false" WIDTH="75" />
-                        <COLUMN NAME="ghidra.util.table.field.SourceTypeTableColumn" VISIBLE="false" WIDTH="75" />
-                        <COLUMN NAME="ghidra.util.table.field.FunctionPurgeTableColumn" VISIBLE="false" WIDTH="75" />
-                        <COLUMN NAME="ghidra.util.table.field.MemoryTypeProgramLocationBasedTableColumn" VISIBLE="false" WIDTH="75" />
-                        <COLUMN NAME="ghidra.util.table.field.LabelTableColumn" VISIBLE="false" WIDTH="75" />
-                        <COLUMN NAME="ghidra.util.table.field.ByteCountProgramLocationBasedTableColumn" VISIBLE="false" WIDTH="75" />
-                        <COLUMN NAME="ghidra.util.table.field.BytesTableColumn" VISIBLE="false" WIDTH="75" />
-                        <COLUMN NAME="ghidra.util.table.field.FunctionCallingConventionTableColumn" VISIBLE="false" WIDTH="75" />
-                        <COLUMN NAME="ghidra.util.table.field.PreviewTableColumn" VISIBLE="false" WIDTH="75" />
                         <TABLE_SORT_STATE>
                             <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="0" SORT_DIRECTION="ascending" SORT_ORDER="1" />
                         </TABLE_SORT_STATE>
@@ -1040,6 +952,130 @@
                     </Table_State>
                 </XML>
             </PREFERENCE_STATE>
+            <PREFERENCE_STATE NAME="docking.widgets.table.GTableFilterPanel$SortedTableModelWrapper:In::Name:Description:Category:">
+                <XML NAME="COLUMN_DATA">
+                    <Table_State>
+                        <COLUMN NAME="In" VISIBLE="true" WIDTH="30" />
+                        <COLUMN NAME="" VISIBLE="true" WIDTH="24" />
+                        <COLUMN NAME="Name" VISIBLE="true" WIDTH="209" />
+                        <COLUMN NAME="Description" VISIBLE="true" WIDTH="277" />
+                        <COLUMN NAME="Category" VISIBLE="true" WIDTH="141" />
+                        <TABLE_SORT_STATE>
+                            <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="2" SORT_DIRECTION="ascending" SORT_ORDER="1" />
+                        </TABLE_SORT_STATE>
+                    </Table_State>
+                </XML>
+            </PREFERENCE_STATE>
+            <PREFERENCE_STATE NAME="ghidra.app.plugin.core.register.RegisterValuesPanel$RegisterValuesTableModel:Start Address:End Address:Value:">
+                <XML NAME="COLUMN_DATA">
+                    <Table_State>
+                        <COLUMN NAME="Start Address" VISIBLE="true" WIDTH="150" />
+                        <COLUMN NAME="End Address" VISIBLE="true" WIDTH="150" />
+                        <COLUMN NAME="Value" VISIBLE="true" WIDTH="150" />
+                        <TABLE_SORT_STATE>
+                            <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="0" SORT_DIRECTION="ascending" SORT_ORDER="1" />
+                        </TABLE_SORT_STATE>
+                    </Table_State>
+                </XML>
+            </PREFERENCE_STATE>
+            <PREFERENCE_STATE NAME="SymbolTablePlugin">
+                <STATE NAME="SELECTION_NAVIGATION_SELECTED_STATE" TYPE="boolean" VALUE="true" />
+            </PREFERENCE_STATE>
+            <PREFERENCE_STATE NAME="ghidra.app.plugin.core.bookmark.BookmarkTableModel:Type:Category:Description:Location:Label:Code Unit:">
+                <XML NAME="COLUMN_DATA">
+                    <Table_State>
+                        <COLUMN NAME="ghidra.app.plugin.core.bookmark.BookmarkTableModel$TypeTableColumn.Type" WIDTH="497" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.app.plugin.core.bookmark.BookmarkTableModel$CategoryTableColumn.Category" WIDTH="90" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.app.plugin.core.bookmark.BookmarkTableModel$DescriptionTableColumn.Description" WIDTH="199" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.util.table.field.AddressTableColumn.Location" WIDTH="89" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.util.table.field.LabelTableColumn.Label" WIDTH="199" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.util.table.field.CodeUnitTableColumn.Code Unit" WIDTH="149" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.util.table.field.PreviewTableColumn.Preview" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.MemoryTypeProgramLocationBasedTableColumn.Mem Type" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.FunctionNameTableColumn.Function Name" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.ByteCountProgramLocationBasedTableColumn.Byte Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.ReferenceCountToAddressTableColumn.Reference Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.NamespaceTableColumn.Namespace" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.EOLCommentTableColumn.EOL Comment" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.OffcutReferenceCountToAddressTableColumn.Offcut Reference Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.FunctionParameterCountTableColumn.Param Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.MemorySectionProgramLocationBasedTableColumn.Mem Block" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.BytesTableColumn.Bytes" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.SourceTypeTableColumn.Symbol Source" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.SymbolTypeTableColumn.Symbol Type" WIDTH="500" VISIBLE="false" />
+                        <TABLE_SORT_STATE>
+                            <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="0" SORT_DIRECTION="ascending" SORT_ORDER="1" />
+                        </TABLE_SORT_STATE>
+                    </Table_State>
+                </XML>
+            </PREFERENCE_STATE>
+            <PREFERENCE_STATE NAME="ghidra.app.plugin.core.data.DataSettingsDialog$SettingsTableModel:Name:Settings:">
+                <XML NAME="COLUMN_DATA">
+                    <Table_State>
+                        <COLUMN NAME="Name" WIDTH="174" VISIBLE="true" />
+                        <COLUMN NAME="Settings" WIDTH="173" VISIBLE="true" />
+                        <TABLE_SORT_STATE>
+                            <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="0" SORT_DIRECTION="ascending" SORT_ORDER="1" />
+                        </TABLE_SORT_STATE>
+                    </Table_State>
+                </XML>
+            </PREFERENCE_STATE>
+            <PREFERENCE_STATE NAME="ghidra.app.plugin.core.references.ExternalNamesTableModel:Name:Ghidra Program:">
+                <XML NAME="COLUMN_DATA">
+                    <Table_State>
+                        <COLUMN NAME="Name" VISIBLE="true" WIDTH="219" />
+                        <COLUMN NAME="Ghidra Program" VISIBLE="true" WIDTH="218" />
+                        <TABLE_SORT_STATE>
+                            <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="0" SORT_DIRECTION="ascending" SORT_ORDER="1" />
+                        </TABLE_SORT_STATE>
+                    </Table_State>
+                </XML>
+            </PREFERENCE_STATE>
+            <PREFERENCE_STATE NAME="KNOWN_EXTENSIONS">
+                <ARRAY NAME="KNOWN_EXTENSIONS" TYPE="string" />
+            </PREFERENCE_STATE>
+            <PREFERENCE_STATE NAME="ghidra.framework.plugintool.dialog.PluginInstallerTableModel:Installation Status:Status:Name:Description:Category:">
+                <XML NAME="COLUMN_DATA">
+                    <Table_State>
+                        <COLUMN NAME="ghidra.framework.plugintool.dialog.PluginInstallerTableModel$PluginInstalledColumn" VISIBLE="true" WIDTH="25" />
+                        <COLUMN NAME="ghidra.framework.plugintool.dialog.PluginInstallerTableModel$PluginStatusColumn" VISIBLE="true" WIDTH="24" />
+                        <COLUMN NAME="ghidra.framework.plugintool.dialog.PluginInstallerTableModel$PluginNameColumn" VISIBLE="true" WIDTH="211" />
+                        <COLUMN NAME="ghidra.framework.plugintool.dialog.PluginInstallerTableModel$PluginDescriptionColumn" VISIBLE="true" WIDTH="211" />
+                        <COLUMN NAME="ghidra.framework.plugintool.dialog.PluginInstallerTableModel$PluginCategoryColumn" VISIBLE="true" WIDTH="210" />
+                        <TABLE_SORT_STATE>
+                            <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="2" SORT_DIRECTION="ascending" SORT_ORDER="1" />
+                        </TABLE_SORT_STATE>
+                    </Table_State>
+                </XML>
+            </PREFERENCE_STATE>
+            <PREFERENCE_STATE NAME="ghidra.app.plugin.core.strings.ViewStringsTableModel:Location:String:">
+                <XML NAME="COLUMN_DATA">
+                    <Table_State>
+                        <COLUMN NAME="ghidra.util.table.field.AddressTableColumn" VISIBLE="true" WIDTH="210" />
+                        <COLUMN NAME="ghidra.app.plugin.core.strings.ViewStringsTableModel$DataValueColumn" VISIBLE="true" WIDTH="210" />
+                        <COLUMN NAME="ghidra.util.table.field.OffcutReferenceCountToAddressTableColumn" VISIBLE="false" WIDTH="75" />
+                        <COLUMN NAME="ghidra.util.table.field.SymbolTypeTableColumn" VISIBLE="false" WIDTH="75" />
+                        <COLUMN NAME="ghidra.util.table.field.MemorySectionProgramLocationBasedTableColumn" VISIBLE="false" WIDTH="75" />
+                        <COLUMN NAME="ghidra.util.table.field.ReferenceCountToAddressTableColumn" VISIBLE="false" WIDTH="75" />
+                        <COLUMN NAME="ghidra.util.table.field.FunctionBodySizeTableColumn" VISIBLE="false" WIDTH="75" />
+                        <COLUMN NAME="ghidra.util.table.field.FunctionSignatureTableColumn" VISIBLE="false" WIDTH="75" />
+                        <COLUMN NAME="ghidra.util.table.field.FunctionParameterCountTableColumn" VISIBLE="false" WIDTH="75" />
+                        <COLUMN NAME="ghidra.util.table.field.NamespaceTableColumn" VISIBLE="false" WIDTH="75" />
+                        <COLUMN NAME="ghidra.util.table.field.FunctionNameTableColumn" VISIBLE="false" WIDTH="75" />
+                        <COLUMN NAME="ghidra.util.table.field.SourceTypeTableColumn" VISIBLE="false" WIDTH="75" />
+                        <COLUMN NAME="ghidra.util.table.field.FunctionPurgeTableColumn" VISIBLE="false" WIDTH="75" />
+                        <COLUMN NAME="ghidra.util.table.field.MemoryTypeProgramLocationBasedTableColumn" VISIBLE="false" WIDTH="75" />
+                        <COLUMN NAME="ghidra.util.table.field.LabelTableColumn" VISIBLE="false" WIDTH="75" />
+                        <COLUMN NAME="ghidra.util.table.field.ByteCountProgramLocationBasedTableColumn" VISIBLE="false" WIDTH="75" />
+                        <COLUMN NAME="ghidra.util.table.field.BytesTableColumn" VISIBLE="false" WIDTH="75" />
+                        <COLUMN NAME="ghidra.util.table.field.FunctionCallingConventionTableColumn" VISIBLE="false" WIDTH="75" />
+                        <COLUMN NAME="ghidra.util.table.field.PreviewTableColumn" VISIBLE="false" WIDTH="75" />
+                        <TABLE_SORT_STATE>
+                            <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="0" SORT_DIRECTION="ascending" SORT_ORDER="1" />
+                        </TABLE_SORT_STATE>
+                    </Table_State>
+                </XML>
+            </PREFERENCE_STATE>
             <PREFERENCE_STATE NAME="docking.widgets.table.GTableFilterPanel$SortedTableModelWrapper:In Tool:Status:Filename:Description:Key Binding:Full Path:Category:">
                 <XML NAME="COLUMN_DATA">
                     <Table_State>
@@ -1056,20 +1092,6 @@
                     </Table_State>
                 </XML>
             </PREFERENCE_STATE>
-            <PREFERENCE_STATE NAME="docking.widgets.table.GTableFilterPanel$SortedTableModelWrapper:In::Name:Description:Category:">
-                <XML NAME="COLUMN_DATA">
-                    <Table_State>
-                        <COLUMN NAME="In" VISIBLE="true" WIDTH="30" />
-                        <COLUMN NAME="" VISIBLE="true" WIDTH="24" />
-                        <COLUMN NAME="Name" VISIBLE="true" WIDTH="209" />
-                        <COLUMN NAME="Description" VISIBLE="true" WIDTH="277" />
-                        <COLUMN NAME="Category" VISIBLE="true" WIDTH="141" />
-                        <TABLE_SORT_STATE>
-                            <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="2" SORT_DIRECTION="ascending" SORT_ORDER="1" />
-                        </TABLE_SORT_STATE>
-                    </Table_State>
-                </XML>
-            </PREFERENCE_STATE>
             <PREFERENCE_STATE NAME="ghidra.app.plugin.core.analysis.AnalysisPanel$5:Enabled:Analyzer Name:">
                 <XML NAME="COLUMN_DATA">
                     <Table_State>
@@ -1078,12 +1100,36 @@
                     </Table_State>
                 </XML>
             </PREFERENCE_STATE>
-            <PREFERENCE_STATE NAME="ghidra.app.plugin.core.register.RegisterValuesPanel$RegisterValuesTableModel:Start Address:End Address:Value:">
+            <PREFERENCE_STATE NAME="ghidra.app.plugin.core.strings.ViewStringsTableModel:Location:String Value:String Representation:Data Type:">
                 <XML NAME="COLUMN_DATA">
                     <Table_State>
-                        <COLUMN NAME="Start Address" VISIBLE="true" WIDTH="150" />
-                        <COLUMN NAME="End Address" VISIBLE="true" WIDTH="150" />
-                        <COLUMN NAME="Value" VISIBLE="true" WIDTH="150" />
+                        <COLUMN NAME="ghidra.app.plugin.core.strings.ViewStringsTableModel$DataLocationColumn.Location" WIDTH="116" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.app.plugin.core.strings.ViewStringsTableModel$DataValueColumn.String Value" WIDTH="116" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.app.plugin.core.strings.ViewStringsTableModel$StringRepColumn.String Representation" WIDTH="116" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.app.plugin.core.strings.ViewStringsTableModel$DataTypeColumn.Data Type" WIDTH="116" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.app.plugin.core.strings.ViewStringsTableModel$IsAsciiColumn.Is Ascii" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.app.plugin.core.strings.ViewStringsTableModel$CharsetColumn.Charset" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.app.plugin.core.strings.ViewStringsTableModel$HasEncodingErrorColumn.Has Encoding Error" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.PreviewTableColumn.Preview" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.CodeUnitTableColumn.Code Unit" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.LabelTableColumn.Label" WIDTH="200" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.FunctionCallingConventionTableColumn.Function Calling Convention" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.MemoryTypeProgramLocationBasedTableColumn.Mem Type" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.FunctionPurgeTableColumn.Function Purge" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.FunctionNameTableColumn.Function Name" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.AddressTableColumn.Location" WIDTH="200" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.ByteCountProgramLocationBasedTableColumn.Byte Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.ReferenceCountToAddressTableColumn.Reference Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.NamespaceTableColumn.Namespace" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.EOLCommentTableColumn.EOL Comment" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.FunctionSignatureTableColumn.Function Signature" WIDTH="200" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.OffcutReferenceCountToAddressTableColumn.Offcut Reference Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.FunctionParameterCountTableColumn.Param Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.MemorySectionProgramLocationBasedTableColumn.Mem Block" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.FunctionBodySizeTableColumn.Function Size" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.BytesTableColumn.Bytes" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.SourceTypeTableColumn.Symbol Source" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.util.table.field.SymbolTypeTableColumn.Symbol Type" WIDTH="500" VISIBLE="false" />
                         <TABLE_SORT_STATE>
                             <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="0" SORT_DIRECTION="ascending" SORT_ORDER="1" />
                         </TABLE_SORT_STATE>
