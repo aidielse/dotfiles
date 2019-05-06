@@ -3,7 +3,7 @@
 pushd ~
 
 echo "[+] Installing apt packages!"
-sudo dpkg --add-architecture i386
+#sudo dpkg --add-architecture i386
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
