@@ -59,7 +59,7 @@ ASLR_LOC='/usr/local/sbin/aslr'
 
 sudo gcc -Wall $ASLRC_LOC -o $ASLR_LOC
 sudo chown root:$REALUSER $ASLR_LOC
-sudo chmod 4550 $ASLR_LOC
+sudo chmod 4555 $ASLR_LOC
 sudo rm $ASLRC_LOC
 echo "[+] Done!"
 
@@ -115,13 +115,6 @@ popd
 source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 echo "[+] Setting up angr!"
 mkvirtualenv angr
-source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
-pip install angr
-deactivate
-echo "[+] Done!"
-
-echo "[+] Setting up angr-pypy!"
-mkvirtualenv -p /usr/bin/pypy angr-pypy
 source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 pip install angr
 deactivate
