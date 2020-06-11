@@ -1,0 +1,3270 @@
+: 1578344725:0;ls
+: 1578344734:0;brew install tmux vim
+: 1578345515:0;brew install git
+: 1578345672:0;ls
+: 1578345684:0;git clone https://github.com/aidielse/dotfiles.git
+: 1578345687:0;cd dotfiles
+: 1578345688:0;ls
+: 1578345695:0;cd files
+: 1578345696:0;ls
+: 1578345709:0;mv bashrc ~/.bash_profile
+: 1578345714:0;mv -r vim ~/.vim
+: 1578345718:0;mv vim ~/.vim
+: 1578345723:0;mv vimrc ~/.vimrc
+: 1578345723:0;ls
+: 1578345727:0;mv zshrc ~/.zshrc
+: 1578345730:0;mv tmux.conf ~/tmux.conf
+: 1578345737:0;mv ~/tmux.conf ~/.tmux.conf
+: 1578345948:0;ls ~/
+: 1578345951:0;ls -la ~/
+: 1578346121:0;exit
+: 1578346270:0;brew cask info java11
+: 1578346318:0;brew tap caskroom/cask
+: 1578346329:0;brew tap homebrew/cask-cask
+: 1578346351:0;brew install java11
+: 1578346372:0;brew cask install java
+: 1578346436:0;brew cask install java11
+: 1578346477:0;/usr/libexec/java_home
+: 1578346480:0;/usr/libexec/java_home -v11
+: 1578346489:0;brew install java11
+: 1578346498:0;brew cask install java11
+: 1578346554:0;brew search java
+: 1578346564:0;brew search jdk
+: 1578346588:0;brew tap adoptopenjdk/openjdk
+: 1578346672:0;brew cask install homebrew/cask-versions/java11
+: 1578346741:0;brew cask install homebrew/cask-versions/java8
+: 1578346763:0;vim ~/.bash_profile
+: 1578346801:0;/usr/libexec/java_home -v11
+: 1578346802:0;/usr/libexec/java_home -v13
+: 1578346804:0;vim ~/.bash_profile
+: 1578346849:0;source ~/.bash_profile
+: 1578346852:0;exit
+: 1578346892:0;vim .zshrc
+: 1578346957:0;git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+: 1578346969:0;exit
+: 1578408677:0;
+: 1578347049:0;ls
+: 1578347051:0;cd Desktop
+: 1578347052:0;ls
+: 1578347053:0;cd ../
+: 1578347054:0;cd dotfiles
+: 1578347054:0;ls
+: 1578347067:0;cd
+: 1578347071:0;mv dotfiles ~/Desktop
+: 1578347111:0;clear
+: 1578347111:0;ls
+: 1578347114:0;tree
+: 1578347116:0;brew install htop
+: 1578347146:0;clear
+: 1578347148:0;ls -la
+: 1578347149:0;clear
+: 1578347155:0;ls -la
+: 1578347194:0;cd Desktop
+: 1578347194:0;ls
+: 1578347198:0;cd dotfiles
+: 1578347199:0;git status
+: 1578347211:0;git commit iterm/Dracula.itermcolors -m "color scheme update"
+: 1578347219:0;git config --global --edit
+: 1578347244:0;git commit iterm/Dracula.itermcolors -m "color scheme update"
+: 1578347246:0;git push
+: 1578347249:0;git status
+: 1578347251:0;git clear
+: 1578347252:0;cd ../
+: 1578347252:0;ls
+: 1578347260:0;cd KEYS
+: 1578347261:0;ls
+: 1578347263:0;cd ../
+: 1578347263:0;ls
+: 1578347264:0;cd dotfiles
+: 1578347264:0;ls
+: 1578347265:0;cd ../
+: 1578347265:0;ls
+: 1578347268:0;rm -rf dotfiles
+: 1578347268:0;ls
+: 1578347293:0;clear
+: 1578347295:0;top
+: 1578347297:0;htop
+: 1578347307:0;tmux
+: 1578347355:0;ls -lah
+: 1578408625:0;ls
+: 1578408627:0;cd /var/log
+: 1578408627:0;ls
+: 1578408632:0;vim install.log
+: 1578408641:0;clear
+: 1578408642:0;ls
+: 1578408648:0;dmesg
+: 1578408661:0;cd ../
+: 1578408662:0;ls
+: 1578408670:0;cd sys
+: 1578408673:0;ls
+: 1578408675:0;cd ../
+: 1578408675:0;ls
+: 1578408677:0;cd
+: 1578408677:0;exit
+: 1578408708:0;cd /var/log
+: 1578408714:0;find ./ name "*jss*\
+"
+: 1578412811:0;htop
+: 1578415144:0;0;181;54M0;181;54mclear
+: 1578415144:0;sudo dmesg
+: 1578417635:0;/Users/aa26678/Desktop/TOOLS/ghidra_9.1.1/ghidraRun ; exit;
+: 1578417741:0;0;156;53M0;156;53m
+: 1578417742:0;clear
+: 1578417742:0;ls
+: 1578417755:0;git clone https://github.com/aidielse/dotfiles.git
+: 1578417759:0;cd dotfiles/\\
+ls
+: 1578417760:0;ls
+: 1578417763:0;ls 
+: 1578417766:0;ls ~/.ghidra
+: 1578417774:0;ls
+: 1578417782:0;/Users/aa26678/Desktop/TOOLS/ghidra_9.1.1/ghidraRun ; exit;
+: 1578417834:0;/Users/aa26678/Desktop/TOOLS/ghidra_9.0.2/ghidraRun; exit
+: 1578417877:0;/Users/aa26678/Desktop/TOOLS/ghidra_9.1.1/ghidraRun ; exit;
+: 1578417900:0;0;169;8M0;169;8m
+: 1578417903:0;ls ~/.ghidra
+: 1578417906:0;cd ~/.ghidra
+: 1578417907:0;ls -lah
+: 1578417912:0;cd .ghidra_9.1.1_PUBLIC
+: 1578417912:0;ls
+: 1578417932:0;cp ~/Desktop/dotfiles/ghidra/_code_browser_dark_light2.tcd ./tools/
+: 1578417944:0;cp ~/Desktop/dotfiles/ghidra/black_dragon.png ./tools
+: 1578417945:0;cd tools
+: 1578417945:0;ls
+: 1578417949:0;vim _code_browser_dark_light2.tcd
+: 1578417968:0;ls
+: 1578417969:0;pwd
+: 1578417975:0;exit
+: 1578419612:0;ping 208.68.37.36
+: 1578419790:0;ping irc.rpis.ec
+: 1578434382:0;cd Desktop
+: 1578434383:0;cd TOOLS
+: 1578434385:0;ls
+: 1578434386:0;mkdir ida
+: 1578434387:0;ls
+: 1578434396:0;mv IDA7* ida/
+: 1578434397:0;ls
+: 1578434403:0;mv IDA_695.zip ida/
+: 1578434404:0;ls
+: 1578434406:0;cd ida
+: 1578434407:0;ls
+: 1578434410:0;git clone https://github.com/push0ebp/sig-database.git
+: 1578434436:0;https://github.com/Maktm/FLIRTDB.git
+: 1578434439:0;https://github.com/Maktm/FLIRTDB
+: 1578434444:0;git clone https://github.com/Maktm/FLIRTDB
+: 1578434683:0;mkdir plugins
+: 1578434684:0;cd plugins
+: 1578434686:0;git clone https://github.com/danigargu/deREferencing
+: 1578434689:0;cd ../
+: 1578434691:0;mkdir flirt_databases
+: 1578434697:0;mv fliRTDB flirt_databases
+: 1578434698:0;ls
+: 1578434703:0;mv sig-database flirt_databases
+: 1578434703:0;ls
+: 1578434708:0;mkdir ida_distributions
+: 1578434713:0;mv ida* ida_distributions
+: 1578434714:0;ls
+: 1578434718:0;mv *.zip ida_distributions
+: 1578434719:0;ls
+: 1578434724:0;mv IDA* ida_distributions
+: 1578434724:0;ls
+: 1578434727:0;cd plugins
+: 1578434727:0;ls
+: 1578434736:0;git clone https://github.com/CheckPointSW/Karta
+: 1578434744:0;git clone https://github.com/igogo-x86/HexRaysPyTools
+: 1578434793:0;cd ../
+: 1578434796:0;mv ../ida_include ./
+: 1578434797:0;ls
+: 1578434804:0;cd ida_include
+: 1578434804:0;ls
+: 1578434811:0;file windows_include.zip
+: 1578434813:0;ls -lah
+: 1578434817:0;cd windows
+: 1578434817:0;ls
+: 1578434818:0;cd include
+: 1578434818:0;ls
+: 1578434821:0;tree
+: 1578434823:0;cd ../../
+: 1578434823:0;ls
+: 1578434826:0;mv windows windows2
+: 1578434830:0;unzip windows_include.zip
+: 1578434833:0;ls
+: 1578434834:0;cd windows2
+: 1578434835:0;ls
+: 1578434836:0;cd ../
+: 1578434837:0;cd windows
+: 1578434837:0;ls
+: 1578434839:0;cd ../
+: 1578434841:0;rm -rf windows2
+: 1578434845:0;rm  windows_include.zip
+: 1578434845:0;ls
+: 1578434846:0;cd ../
+: 1578434846:0;ls
+: 1578434883:0;mv ida_include os_headers
+: 1578434883:0;ls
+: 1578435703:0;cd compiler_headers
+: 1578435703:0;ls
+: 1578435704:0;cd vc
+: 1578435704:0;ls
+: 1578435706:0;cd vc14_include
+: 1578435707:0;pwd
+: 1578435721:0;cd ../
+: 1578435723:0;cd gcc
+: 1578435723:0;ls
+: 1578435724:0;cd include
+: 1578435725:0;pwd
+: 1578511468:0;cd Desktop
+: 1578511469:0;cd challenges-master
+: 1578511470:0;ls
+: 1578511472:0;cd pwn/midnight_candle
+: 1578511472:0;ls
+: 1578511476:0;vim run.sh
+: 1578511482:0;vim Dockerfile
+: 1578511640:0;cd Desktop/challenges-master
+: 1578511640:0;ls
+: 1578511641:0;cd pwn
+: 1578511641:0;ls
+: 1578511643:0;cd midnight_candle
+: 1578511643:0;ls
+: 1578511645:0;file candles
+: 1578511649:0;file leakguard.so
+: 1578512339:0;ls
+: 1578512340:0;cd Desktop
+: 1578512340:0;ls
+: 1578512348:0;clear
+: 1578512349:0;tmux
+: 1578512350:0;ls
+: 1578512353:0;vim test.sh
+: 1578512359:0;which zsh
+: 1578512361:0;vim test.sh
+: 1578512415:0;file challenges-master/pwn/midnight_candle/candles
+: 1578512426:0;file interview_bins/3C/lab3C
+: 1578512451:0;vim test.sh
+: 1578512489:0;chmod +x test.sh
+: 1578512500:0;./test.sh ./interview_bins/3C/lab3C
+: 1578512506:0;vim test.sh
+: 1578512515:0;./test.sh ./interview_bins/3C/lab3C
+: 1578512518:0;vim test.sh
+: 1578512990:0;/Users/aa26678/Desktop/challenges-master/pwn/midnight_candle/candles ; exit;
+: 1578513043:0;clear
+: 1578513043:0;ls
+: 1578513049:0;clear
+: 1578513067:0;ls
+: 1578513079:0;open -n /Applications/IDA\ Pro\ 7.4/ida64.app ./candles
+: 1578513080:0;/Users/aa26678/Desktop/challenges-master/pwn/midnight_candle/candles ; exit;
+: 1578513096:0;open -n /Applications/IDA\ Pro\ 7.4/ida64.app
+: 1578513240:0;brew install docker
+: 1578513315:0;brew install docker-machine
+: 1578513330:0;brew install docker-compose
+: 1578513350:0;ls
+: 1578513356:0;mkdir tmpdir
+: 1578513358:0;cd tmpdir
+: 1578513358:0;ls
+: 1578513361:0;cp ../Dockerfile ./
+: 1578513362:0;vim Dockerfile
+: 1578513505:0;docker run -it ./ -v ./:/tmpdir /bin/bash 
+: 1578513535:0;tmux
+: 1578513536:0;exit
+: 1578513537:0;open -n /Applications/IDA\ Pro\ 7.4/
+: 1578513541:0;ls
+: 1578513544:0;cd PROJECTS
+: 1578513544:0;ls
+: 1578513545:0;cd gtfo
+: 1578513545:0;ls
+: 1578513547:0;cd gtfo
+: 1578513548:0;ls
+: 1578513550:0;cd testing
+: 1578513551:0;ls
+: 1578513552:0;vim run_all_tests.sh
+: 1578513564:0;cd challenges-master
+: 1578513565:0;ls
+: 1578513567:0;cd pwjn
+: 1578513568:0;cd pwn
+: 1578513569:0;ls
+: 1578513571:0;cd midnight_candle
+: 1578513572:0;ls
+: 1578513574:0;cd tmpdir
+: 1578513574:0;ls
+: 1578513583:0;docker build -t midnight_candle .
+: 1578513593:0;docker daemon
+: 1578513598:0;docker run
+: 1578513671:0;docker --version
+: 1578513675:0;docker run hello-world
+: 1578513704:0;sudo docker run hello-world
+: 1578513723:0;sudo su
+: 1578513740:0;docker
+: 1578513778:0;docker ps
+: 1578513788:0;brew cask install docker
+: 1578513839:0;docker run hello-world
+: 1578513844:0;docker ps
+: 1578513846:0;sudo su
+: 1578513857:0;brew uninstall docker docker-engine docker-compose
+: 1578513864:0;brew uninstall docker
+: 1578513870:0;brew uninstall docker-engine
+: 1578513876:0;brew uninstall docker*
+: 1578513880:0;brew cask install docker
+: 1578513892:0;docker ps
+: 1578513893:0;docker
+: 1578513898:0;brew cask reinstall docker
+: 1578513998:0;docker ps
+: 1578514036:0;docker build -t midnight_candle1 .
+: 1578514050:0;cd
+: 1578514054:0;cd Desktop/challenges-master
+: 1578514054:0;ls
+: 1578514055:0;cd pwn
+: 1578514055:0;ls
+: 1578514057:0;cd midnight_candle
+: 1578514057:0;ls
+: 1578514061:0;cd tmpdir.
+: 1578514063:0;cd tmpdir
+: 1578514063:0;ls
+: 1578514071:0;vim Dockerfile
+: 1578514080:0;cp ../* ./
+: 1578514080:0;ls
+: 1578514086:0;docker build -t midnight_candle1 .
+: 1578514112:0;docker run -it midnight_candle1 /bin/bash
+: 1578514118:0;vim Dockerfile
+: 1578514125:0;docker build -t midnight_candle1 .
+: 1578514130:0;docker run -it midnight_candle1 /bin/bash
+: 1578514137:0;vim Dockerfile
+: 1578514152:0;ls
+: 1578514160:0;docker run -it midnight_candle1 /bin/bash -v ./:/tmpdir
+: 1578514175:0;docker run -it -v ./:/tmpdir midnight_candle1 /bin/bash 
+: 1578514203:0;man docker run
+: 1578514206:0;docker run -h
+: 1578514208:0;docker run --help
+: 1578514210:0;/-v
+: 1578514248:0;docker run -it -v ~/Desktop/challenges-master/pwn/midnight_candle/tmpdir:/tmpdir midnight_candle1 /bin/bash 
+: 1578514270:0;ls
+: 1578514272:0;mv ld-linux-x86-64.so.2 ../
+: 1578514276:0;mv libc.so.6 ../
+: 1578514277:0;cd ../
+: 1578514277:0;ls
+: 1578514279:0;rm -rf tmpdir
+: 1578514280:0;ls
+: 1578514428:0;man dlsym
+: 1579120178:0;clear
+: 1579120178:0;ls
+: 1579120179:0;cd Desktop
+: 1579120179:0;ls
+: 1579120181:0;cd VMS
+: 1579120182:0;ls
+: 1579120183:0;cd ../
+: 1579120184:0;cd vmshare
+: 1579120188:0;cd share
+: 1579120190:0;git clone https://github.com/Sonelli/android-coreutils
+: 1579120202:0;cd android-coreutils
+: 1579120203:0;tmux
+: 1579120212:0;ls
+: 1579120226:0;docker build -t android-coreutils ./
+: 1579120236:0;vim Dockerfile
+: 1579183825:0;clear
+: 1579183959:0;ls
+: 1579183961:0;cd ../
+: 1579183963:0;mkdir target
+: 1579183973:0;mv target android-coreutils
+: 1579183985:0;docker run -i -t -v $(pwd):/target ./ /home/admin/shell
+: 1579184014:0;docker run -i -t -v $(pwd):/target ../android-coreutils /home/admin/shell
+: 1579184023:0;docker run -i -t -v $(pwd):/target /home/admin/shell
+: 1579184030:0;docker run -i -t -v $(pwd):/target ./ /bin/bash
+: 1579184033:0;docker run -i -t -v $(pwd):/target ./ 
+: 1579184039:0;man docker run
+: 1579184042:0;docker run --help
+: 1579184061:0;docker run -i -t -v $(pwd)/target:/target ./ 
+: 1579184076:0;docker list
+: 1579184077:0;docker ps
+: 1579184083:0;docker list
+: 1579184084:0;docker ls
+: 1579184088:0;docker --help
+: 1579184096:0;docker images
+: 1579184118:0;docker run -i -t -v $(pwd)/target:/target android-coreutils /home/admin/shell
+: 1579184351:0;cd android-coreutils
+: 1579184352:0;vim Dockerfile
+: 1579184527:0;git status
+: 1579184530:0;git remote list
+: 1579184542:0;git remote origin list
+: 1579184609:0;vim Dockerfile
+: 1579184873:0;ls
+: 1579184875:0;cd ../
+: 1579184886:0;git clone https://github.com/sonelli/android-ports-tools.git
+: 1579184889:0;cd android-ports-tools
+: 1579184890:0;ls
+: 1579184895:0;cd ../
+: 1579184895:0;ls
+: 1579184940:0;cd android-
+: 1579184944:0;cd android-coreutils
+: 1579184945:0;ls
+: 1579184947:0;cd target
+: 1579184948:0;ls
+: 1579185071:0;rm -rf ./*
+: 1579185148:0;cd ../
+: 1579185148:0;ls
+: 1579185656:0;cd ../
+: 1579185656:0;ls
+: 1579185664:0;mkdir android_cross_compile
+: 1579185674:0;cd android-ports-tools
+: 1579185674:0;ls
+: 1579185677:0;vim README.md
+: 1579185685:0;ls
+: 1579185697:0;cd ../
+: 1579185697:0;ls
+: 1579185703:0;mv android-ports-tools android_cross_compile
+: 1579185705:0;cd android-coreutils
+: 1579185706:0;ls
+: 1579185885:0;mv target ../android_cross_compile
+: 1579185886:0;cd ../
+: 1579185886:0;cd android
+: 1579185889:0;cd android_cross_compile
+: 1579185889:0;ls
+: 1579185891:0;mv target/* ./
+: 1579185892:0;ls
+: 1579185893:0;rmdir target
+: 1579185894:0;ls
+: 1579185904:0;unzip droid.zip
+: 1579186032:0;docker run -i -t -v $(pwd)/target:/target android-coreutils /home/admin/shell
+: 1579186309:0;cd target
+: 1579186398:0;ls
+: 1579186399:0;vim build
+: 1579186405:0;cd bin
+: 1579186405:0;ls
+: 1579186411:0;cd build
+: 1579186411:0;ls
+: 1579186417:0;clear
+: 1579186418:0;ls
+: 1579186420:0;cd ../
+: 1579186422:0;cd android_cross_compile
+: 1579186422:0;ls
+: 1579186424:0;cd droid
+: 1579186425:0;ls
+: 1579186427:0;cd bin
+: 1579186428:0;ls
+: 1579186430:0;vim agcc
+: 1579186616:0;ls
+: 1579186619:0;cd ../
+: 1579186619:0;ls
+: 1579186621:0;cd ../
+: 1579186622:0;ls
+: 1579186631:0;cp build ../android-coreutils/target
+: 1579186639:0;ls
+: 1579186640:0;cd target
+: 1579186640:0;ls
+: 1579186645:0;cp ../build ./
+: 1579186671:0;ls
+: 1579186673:0;cd ../
+: 1579186674:0;ls
+: 1579186676:0;cd droid
+: 1579186676:0;ls
+: 1579186684:0;cd bin
+: 1579186684:0;ls
+: 1579186687:0;cd ../
+: 1579186687:0;ls
+: 1579186689:0;cd android-ndk
+: 1579186724:0;ls
+: 1579186728:0;cd toolchains
+: 1579186728:0;ls
+: 1579186763:0;cd ../
+: 1579186763:0;ls
+: 1579186765:0;ls -lah
+: 1579186769:0;cd default-arm-toolchain
+: 1579186770:0;ls
+: 1579186772:0;cd ../
+: 1579186775:0;cd toolchains
+: 1579186775:0;ls
+: 1579186817:0;cd x86-clang3.4
+: 1579186818:0;ls
+: 1579186823:0;cd ../
+: 1579186824:0;ls
+: 1579186827:0;cd arm-linux-androideabi-clang3.4
+: 1579186827:0;ls
+: 1579186828:0;cd ../
+: 1579186830:0;cd llvm-34
+: 1579186832:0;cd ../
+: 1579186836:0;find ./ -name "clang"
+: 1579186844:0;cd toolchains
+: 1579186845:0;cd llvm-3.
+: 1579186846:0;cd llvm-3.4
+: 1579186847:0;ls
+: 1579186851:0;cd ../
+: 1579186851:0;ls
+: 1579186857:0;cd ../
+: 1579186857:0;ls
+: 1579186865:0;cd prebuilt
+: 1579186865:0;ls
+: 1579186868:0;cd android-arm
+: 1579186868:0;ls
+: 1579186870:0;cd ../../
+: 1579186871:0;ls
+: 1579186872:0;cd toolchains
+: 1579186872:0;ls
+: 1579186874:0;make -j4
+: 1579186876:0;cd ../
+: 1579186877:0;ls
+: 1579186879:0;make -j4
+: 1579186886:0;cd toolchains
+: 1579186886:0;ls
+: 1579186911:0;cd ../
+: 1579186912:0;cd build
+: 1579186912:0;ls
+: 1579186913:0;cd tools
+: 1579186913:0;ls
+: 1579186967:0;./make-standalone-toolchain.sh --arch arm --api 15 --install-dir /tmp/android-15-toolchain
+: 1579186980:0;./make-standalone-toolchain.sh --arch=arm --api=15 --install-dir=/tmp/android-15-toolchain
+: 1579186984:0;./make-standalone-toolchain.sh --help
+: 1579187027:0;./make-standalone-toolchain.sh --arch=arm --llvm-version=3.4 --platform=android-15 --install-dir=/tmp/android-15-llvm-toolchain
+: 1579187506:0;ls
+: 1579187509:0;cd ../
+: 1579187510:0;cd ../../
+: 1579187510:0;ls
+: 1579187519:0;cd android-ndk
+: 1579187520:0;ls
+: 1579187521:0;cd build
+: 1579187521:0;ls
+: 1579187522:0;cd tools
+: 1579187522:0;ls
+: 1579187523:0;pwd
+: 1579187538:0;./make-standalone-toolchain.sh --llvm-version=3.4
+: 1579187539:0;pwd
+: 1579187608:0;./make-standalone-toolchain.sh --llvm-version=3.4 --toolchain=arm-linux-androideabi-4.6 --ndk_dir=/Users/aa26678/Desktop/share/android_cross_compile/droid/android-ndk --install_dir=../../../../android-15-llvm-toolchain
+: 1579187613:0;./make-standalone-toolchain.sh --llvm-version=3.4 --toolchain=arm-linux-androideabi-4.6 --ndk_dir=/Users/aa26678/Desktop/share/android_cross_compile/droid/android-ndk --install_dir=../../../../android-15-llvm-toolchain --system=linux-x86_64
+: 1579187683:0;ls
+: 1579187684:0;cd ../
+: 1579187684:0;ls
+: 1579187686:0;cd ../../
+: 1579187686:0;ls
+: 1579187688:0;cd ../
+: 1579187689:0;ls
+: 1579187693:0;cd droid
+: 1579187693:0;cd bin
+: 1579187693:0;ls
+: 1579187695:0;vim agcc
+: 1579188566:0;ls
+: 1579188567:0;cd ../../
+: 1579188569:0;cd android-ports-tools
+: 1579188569:0;ls
+: 1579188570:0;cd targert
+: 1579188571:0;cd target
+: 1579188572:0;ls
+: 1579188573:0;cd ../
+: 1579188574:0;ls
+: 1579188575:0;cd ../
+: 1579188578:0;cd android-coreutils
+: 1579188579:0;cd target
+: 1579188579:0;ls
+: 1579188584:0;cd target
+: 1579188584:0;ls
+: 1579188588:0;cd target
+: 1579188589:0;ls -lah
+: 1579188597:0;cd ../
+: 1579188797:0;ls
+: 1579188800:0;cd android-coreutils
+: 1579188800:0;ls
+: 1579188802:0;cd build
+: 1579188803:0;ls
+: 1579188806:0;cd ../
+: 1579188806:0;ls
+: 1579188808:0;cd android_cross_compile
+: 1579188808:0;ls
+: 1579188810:0;cd droid
+: 1579188810:0;ls
+: 1579188813:0;cd bin
+: 1579188814:0;ls
+: 1579188816:0;vim ald
+: 1579188823:0;fild ald
+: 1579188824:0;file ald
+: 1579188848:0;ls
+: 1579188851:0;cd ../
+: 1579188852:0;ls
+: 1579188853:0;cd ../
+: 1579188853:0;ls
+: 1579188856:0;vim build
+: 1579189370:0;man setgrent
+: 1579189416:0;cd ../
+: 1579189419:0;cd android-coreutils
+: 1579189420:0;cd target
+: 1579189421:0;ls
+: 1579189424:0;cd build
+: 1579189425:0;cd ../
+: 1579189425:0;ls
+: 1579189428:0;cd android-coreutils
+: 1579189428:0;ls
+: 1579189611:0;cd target
+: 1579189612:0;ls
+: 1579189615:0;file target
+: 1579189618:0;vim target
+: 1579189620:0;cd ../
+: 1579189620:0;ls
+: 1579189624:0;cd android_cross_compile
+: 1579189625:0;ls
+: 1579189626:0;cd target
+: 1579189627:0;ls
+: 1579189654:0;cd arm
+: 1579189655:0;ls
+: 1579189657:0;cd nopie
+: 1579189657:0;ls
+: 1579189666:0;fike ls
+: 1579189667:0;file ls
+: 1579189760:0;readelf -a ls | less
+: 1579189763:0;man readelf
+: 1579189770:0;brew install readelf
+: 1579198094:0;cp ~/Downloads/android-ndk-r21-linux-x86_64.zip ~/Desktop/share
+: 1579202920:0;cd ../
+: 1579202920:0;ls
+: 1579202924:0;cd android-ndk-r21
+: 1579202924:0;ls
+: 1579202931:0;find ./ -name "*.h"
+: 1579206450:0;cd ../../
+: 1579206450:0;ls
+: 1579206451:0;cd ../
+: 1579206451:0;ls
+: 1579206452:0;cd ../
+: 1579206455:0;git clone https://llcad-github.llan.ll.mit.edu/Mystique/android-ollvm
+: 1579206458:0;ssh-add llcad_github_id_rsa.key
+: 1579206462:0;chmod 755 llcad_github_id_rsa.key
+: 1579206466:0;ssh-add llcad_github_id_rsa.key
+: 1579206471:0;chmod 555 llcad_github_id_rsa.key
+: 1579206472:0;ssh-add llcad_github_id_rsa.key
+: 1579206480:0;chmod 444 llcad_github_id_rsa.key
+: 1579206480:0;ssh-add llcad_github_id_rsa.key
+: 1579206488:0;ssh-add llca
+: 1579206490:0;chmod 400 llcad_github_id_rsa.key
+: 1579206491:0;ssh-add llca
+: 1579206494:0;ssh-add llcad_github_id_rsa.key
+: 1579206512:0;git clone git@llcad-github.llan.ll.mit.edu:Mystique/android-ollvm
+: 1579206516:0;ls
+: 1579206518:0;cd android-ollvm
+: 1579206519:0;ls
+: 1579206554:0;mkdir coreutils
+: 1579206556:0;cd coreutils
+: 1579206556:0;ls
+: 1579206561:0;cd ../
+: 1579206561:0;ls
+: 1579206575:0;cp build.py ./android-ollvm/coreutils
+: 1579206580:0;ls
+: 1579206595:0;cp coreutils-android.patch ./android-ollvm/coreutils
+: 1579206596:0;ls
+: 1579206601:0;ls -lah
+: 1579206644:0;ls
+: 1579206646:0;vim build.py
+: 1579206663:0;ls
+: 1579206679:0;wget https://dl.google.com/android/repository/android-ndk-r18b-linux-x86_64.zip
+: 1579206744:0;ls
+: 1579206757:0;git status
+: 1579206759:0;git add ./
+: 1579206760:0;git status
+: 1579206768:0;git commit -a -m "adding coreutils script and patchfile"
+: 1579206776:0;git config --global user.name "Aaron Sedlacek"
+: 1579206785:0;git config --global user.email "Aaron.Sedlacek@ll.mit.edu"
+: 1579206786:0;git push
+: 1579208428:0;netstat -tuln
+: 1579208433:0;netstat -tulpn
+: 1579208549:0;clear
+: 1579208564:4;netstat -a
+: 1579208573:0;netstat -tuln
+: 1579208576:21;man netstat
+: 1579208599:0;netstat -tulpn
+: 1579208602:0;netstat -tulp
+: 1579208606:7;netstat -a
+: 1579286450:0;ls
+: 1579286454:0;git status
+: 1579286455:2;git pull
+: 1579286458:0;ls
+: 1579286460:0;cd ../../
+: 1579286460:0;ls
+: 1579286463:0;cd share
+: 1579286464:0;ls
+: 1579286466:0;cd android-ollvm
+: 1579286466:0;ls
+: 1579286467:5;git pull
+: 1579286475:0;cd coreutils
+: 1579286475:0;ls
+: 1579286478:0;./build.py
+: 1579287066:1;git clean -fd
+: 1579287151:0;ls
+: 1579287782:1681;htop
+: 1579291915:0;git status
+: 1579291938:1;git commit build.py -m "updating build.py to download various components, log better, and build the required toolchains"
+: 1579291940:2;git push
+: 1579291943:0;ls
+: 1579291952:12;vim .gitignore
+: 1579291965:0;git status
+: 1579291967:0;git add .gitignore
+: 1579291970:4;vim .gitignore
+: 1579291976:0;git add .gitignore
+: 1579291977:0;git status
+: 1579291981:1;git commit .gitignore -m "adding gitignore"
+: 1579291984:2;git push
+: 1579291986:0;ls
+: 1579291989:0;cd ../
+: 1579291990:0;ls
+: 1579292000:0;git mv coreutils gnu-coreutils-corpus
+: 1579292001:0;git status
+: 1579292010:0;git commit -a -m "renaming coreutils dir to be more descriptive"
+: 1579292011:0;git status
+: 1579292013:2;git push
+: 1579292085:0;cd gnu-coreutils-corpus
+: 1579292086:0;ls
+: 1579292089:0;git mv build.py build-corpus.py
+: 1579292090:0;git status
+: 1579292099:0;git commit -a m "renaming build.py script"
+: 1579292105:0;git commit -a -m "renaming build.py script"
+: 1579292106:2;git push
+: 1579292108:0;cd ../
+: 1579292109:0;ls
+: 1579292111:0;rm -rf coreutils
+: 1579298806:0;ls
+: 1579298811:0;cd gnu-coreutils-corpus
+: 1579298812:0;l;s
+: 1579298821:0;git add ollvm-str.patch
+: 1579298823:0;git status
+: 1579298829:0;git commit ollvm-str.patch -m "adding ollvm patch file"
+: 1579298831:2;git push
+: 1579298865:0;ls
+: 1579298870:186;vim ollvm-str.patch
+: 1579299158:0;ls
+: 1579300253:0;git status
+: 1579300265:0;git commit -a -m "adding function to get ollvm and patch it"
+: 1579300267:1;git push
+: 1579613287:0;htop
+: 1579617703:0;cd Desktop
+: 1579617706:0;cd vmsh
+: 1579617706:0;ls
+: 1579617707:0;cd share
+: 1579617707:0;ls
+: 1579617715:0;cd android-ollvm
+: 1579617715:0;ls
+: 1579617716:0;cd gnu-coreutils-corpus
+: 1579617716:0;ls
+: 1579617719:0;git status
+: 1579617725:0;tig
+: 1579617728:0;brew install tig
+: 1579618671:0;clear
+: 1579618672:0;htop
+: 1579620922:0;git push
+: 1579620925:0;git status
+: 1579620940:0;git commit -a -m "build-corpus now builds llvm-obfuscator"
+: 1579620942:0;git push
+: 1579623910:0;ls
+: 1579698393:0;ls -lah
+: 1579698440:0;clear
+: 1579698442:0;ls
+: 1579698443:0;clear
+: 1579698444:0;ls -la
+: 1579698446:0;clear
+: 1579698448:0;ls
+: 1579703111:0;clear
+: 1579706598:0;cd sha
+: 1579706599:0;cd Desktop
+: 1579706600:0;cd share
+: 1579706601:0;wget http://git.savannah.gnu.org/cgit/coreutils.git/snapshot/coreutils-8.31.tar.gz
+: 1579804791:0;clear
+: 1580482849:0;cd Desktop
+: 1580482850:0;cd share
+: 1580482851:0;ls
+: 1580482853:0;cd ../
+: 1580482853:0;ls
+: 1580482854:0;cd KEYS
+: 1580482855:0;ls
+: 1580482857:0;cd ../
+: 1580482859:0;cd KEYS
+: 1580482903:0;ls
+: 1580482904:0;ssh-keygen
+: 1580482925:0;ls
+: 1580482938:0;cat github_id_rsa.pub
+: 1580482941:0;cat github_id_rsa
+: 1580482950:0;clear
+: 1580482950:0;ls
+: 1580482954:0;cat github_id_rsa.pub
+: 1580482982:0;clear
+: 1580482983:0;ls
+: 1580482986:0;ssh-add github_id_rsa
+: 1580483017:0;git clone aidielse@github.com/aidielse/the_gauntlet.giut
+: 1580483018:0;git clone aidielse@github.com/aidielse/the_gauntlet.git
+: 1580483026:0;git clone aidielse@github.com:aidielse/the_gauntlet.git
+: 1580483045:0;ssh-add github_id_rsa.pub
+: 1580483094:0;ls ~/.ssh
+: 1580483097:0;ls -la ~/.ssh
+: 1580483105:0;cp github_id_rsa * ~/.ssh
+: 1580483109:0;cp github_id_rsa* ~/.ssh
+: 1580483114:0;git clone aidielse@github.com:aidielse/the_gauntlet.git
+: 1580483165:0;ls
+: 1580483169:0;vim ~/.ssh/config
+: 1580483210:0;cd .ssh
+: 1580483210:0;ls
+: 1580483224:0;ssh-add -K ~/.ssh/github_id_rsa
+: 1580483225:0;cd
+: 1580483226:0;ls
+: 1580483228:0;cd Desktop
+: 1580483230:0;cd share
+: 1580483232:0;git clone aidielse@github.com:aidielse/the_gauntlet.git
+: 1580483246:0;git clone git@github.com:aidielse/the_gauntlet.git
+: 1580483251:0;git status
+: 1580483253:0;cd the_gauntlet
+: 1580483254:0;ls
+: 1580483259:0;vim README.md
+: 1580483276:0;git commit -a -m "test"
+: 1580483279:0;git push
+: 1580483285:0;clear
+: 1580483324:0;cd easy
+: 1580483324:0;ls
+: 1580483325:0;cd ba
+: 1580483327:0;cd banker
+: 1580483328:0;ls
+: 1580483332:0;file banker
+: 1580483381:0;ldd banker
+: 1580483461:0;ls
+: 1580483462:0;cd ../
+: 1580483463:0;ls
+: 1580483463:0;cd ../
+: 1580483464:0;ls
+: 1580483465:0;cd TOO
+: 1580483465:0;ls
+: 1580483467:0;cd ../
+: 1580483468:0;ls
+: 1580483469:0;cd TOOLS
+: 1580483469:0;ls
+: 1580483472:0;cd ida
+: 1580483472:0;ls
+: 1580483476:0;cd flirt_databases
+: 1580483476:0;ls
+: 1580483477:0;cd fliRTDB
+: 1580483478:0;git pull
+: 1580483479:0;cd ../
+: 1580483480:0;cd sig-database
+: 1580483481:0;git pull
+: 1580483482:0;ls
+: 1580483483:0;cd ubuntu
+: 1580483483:0;ls
+: 1580483485:0;cd libc6
+: 1580483485:0;ls
+: 1580483492:0;cd 16.04
+: 1580483492:0;ls
+: 1580483496:0;cd 16.04\ \(xenial\)
+: 1580483496:0;ls
+: 1580483499:0;cd i386
+: 1580483499:0;ls
+: 1580483510:0;cd ../../
+: 1580483510:0;ls
+: 1580483511:0;cd ../
+: 1580483511:0;ls
+: 1580483512:0;cd ../
+: 1580483512:0;ls
+: 1580483513:0;cd ../
+: 1580483513:0;ls
+: 1580483514:0;cd fliRTDB
+: 1580483515:0;ls
+: 1580483516:0;cd ../
+: 1580483517:0;ls
+: 1580483518:0;cd sig-database
+: 1580483518:0;ls
+: 1580483520:0;cd ubuntu
+: 1580483520:0;ls
+: 1580483521:0;cd libc6
+: 1580483522:0;ls
+: 1580483525:0;cd 16.04\ \(xenial\)
+: 1580483526:0;ls
+: 1580484862:0;clear
+: 1580484870:0;vim ../../../README.md
+: 1580484885:0;ls
+: 1580484888:0;cd i386
+: 1580484889:0;ls
+: 1580484909:0;vim libc6_2.21-0ubuntu4_i386.sig
+: 1580484932:0;strings libc6_2.21-0ubuntu4_i386.sig
+: 1580484935:0;strings libc6_2.21-0ubuntu4_i386.sig | less
+: 1580484938:0;clear
+: 1580484938:0;l
+: 1580484984:0;cp ./* ./ubuntu-16.04-*
+: 1580484985:0;ls
+: 1580484987:0;ls -la
+: 1580484999:0;cp *.sig ubuntu-16.04-*.sig
+: 1580485000:0;ls
+: 1580485028:0;cd ../
+: 1580485028:0;ls
+: 1580485030:0;cd amd64
+: 1580485030:0;ls
+: 1580485031:0;cd ../
+: 1580485034:0;cd i386
+: 1580485034:0;ls
+: 1580485269:0;man rename
+: 1580485274:0;rename -h
+: 1580485341:0;ls
+: 1580485371:0;cp ./* /Applications/IDA\ Pro\ 7.4/idabin/sig/pc/
+: 1580504257:0;clear
+: 1580504258:0;cd
+: 1580504259:0;cd Desktop
+: 1580504261:0;cd share
+: 1580504262:0;cd the_gauntlet
+: 1580504262:0;ls
+: 1580504263:0;git status
+: 1580504264:0;ls
+: 1580504276:0;cd gotta_start_somewhere
+: 1580504276:0;ls
+: 1580504280:0;git rm -help
+: 1580504288:0;git rm -f ./greenhornd
+: 1580504293:0;git rm -rf ./greenhornd
+: 1580504299:0;git rm -rf csawdiary
+: 1580504310:0;cd ../
+: 1580504310:0;ls
+: 1580504311:0;git status
+: 1580504321:0;git commit -a -m "removing stale 'gotta_start_somewhere' difficulty challenges"
+: 1580504322:0;git push
+: 1580504329:0;cd easy
+: 1580504329:0;ls
+: 1580504335:0;git mr -rf banker
+: 1580504338:0;git rm -rf banker
+: 1580504361:0;git rm -rf cfy
+: 1580504367:0;git rm -rf ezhp
+: 1580504374:0;git rm -rf sass
+: 1580504375:0;git status
+: 1580504398:0;git commit -a -m "removing stale 'easy' difficulty challenges"
+: 1580504406:0;ls
+: 1580504421:0;cd interpreter
+: 1580504421:0;ls
+: 1580504423:0;file befunge.7z
+: 1580504427:0;7z e befunge.7z
+: 1580504433:0;brew install 7z
+: 1580504483:0;brew install p7zip
+: 1580504547:0;7z e befunge.7z
+: 1580504556:0;ls
+: 1580504559:0;cd befunge
+: 1580504559:0;ls
+: 1580504561:0;cd ../
+: 1580504567:0;file befunge_1
+: 1580504569:0;rm befunge
+: 1580504571:0;rmdir befunge
+: 1580504578:0;rm befunge.7z
+: 1580504579:0;file befunge_1
+: 1580505213:0;cd ../
+: 1580505213:0;ls
+: 1580505216:0;git rm -rf interpreter
+: 1580505224:0;git status
+: 1580505231:0;rm -rf interpreter
+: 1580505232:0;git status
+: 1580505237:0;git commit -a -m "removing interpreter challenge."
+: 1580505238:0;git push
+: 1580505244:0;cd readme
+: 1580505244:0;ls
+: 1580505246:0;file readme.bin
+: 1580506605:0;clear
+: 1580506605:0;ls
+: 1580506608:0;gdb readme.bin
+: 1580506707:0;clear
+: 1580506708:0;git status
+: 1580506723:0;cd ../../
+: 1580506725:0;cd average
+: 1580506725:0;ls
+: 1580506740:0;git rm -rf spell
+: 1580506748:0;git rm -rf mynx
+: 1580506751:0;git rm -rf maze
+: 1580506755:0;git rm -rf fuzzy
+: 1580506759:0;git rm -rf ti-1337
+: 1580506762:0;git rm -rf holy-moses
+: 1580506766:0;git rm -rf the-union
+: 1580506769:0;git rm -rf kappa
+: 1580506770:0;ls
+: 1580506772:0;git status
+: 1580506777:0;cd ../
+: 1580506796:0;git status
+: 1580506824:0;git commit -a -m "removing stale 'average' difficulty challenges"
+: 1580506825:0;git status
+: 1580506826:0;git push
+: 1580506833:0;cd respectable
+: 1580506833:0;ls
+: 1580506840:0;git rm -rf d3flate
+: 1580506843:0;git rm -rf sarge
+: 1580506845:0;git rm -rf pong
+: 1580506853:0;git rm -rf snapstagram
+: 1580506858:0;git rm -rf 4stone
+: 1580506860:0;git rm -rf harry_potter
+: 1580506864:0;git rm -rf jackshit
+: 1580506866:0;git status
+: 1580506900:0;git commit -a -m "removing stale 'respectable' difficulty challenges"
+: 1580506901:0;git push
+: 1580506918:0;cd ../stressful
+: 1580506918:0;ls
+: 1580506923:0;git rm -rf zpwn
+: 1580506927:0;git rm -rf turdedo
+: 1580506930:0;git rm -rf justify
+: 1580506933:0;git rm -rf minibomb
+: 1580506936:0;git rm -rf koreanrestaurant
+: 1580506941:0;git rm -rf dodosandbox
+: 1580506946:0;git rm -rf classy
+: 1580506948:0;git rm -rf nokia-1337
+: 1580506952:0;git rm -rf booking
+: 1580506964:0;git status
+: 1580507007:0;git commit -a -m "removing stale 'stressful' difficulty challenges"
+: 1580507009:0;git push
+: 1580507016:0;ls
+: 1580507016:0;cd ../
+: 1580507017:0;cd soul_crushing
+: 1580507018:0;ls
+: 1580507029:0;git rm -rf cfy2
+: 1580507034:0;git rm -rf saas
+: 1580507037:0;git rm -rf membership
+: 1580507042:0;git rm -rf dosfun4u
+: 1580507046:0;git rm -rf byte_sexual
+: 1580507048:0;git rm -rf breakout
+: 1580507051:0;git rm -rf mario
+: 1580507053:0;git rm -rf oreo
+: 1580507056:0;git rm -rf stkof
+: 1580507057:0;git status
+: 1580507077:0;git commit -a -m "removing stale 'soul crushing' difficulty challenges"
+: 1580507079:0;git push
+: 1580507132:0;git commit -a -m "Adding ctf wiki link to readme"
+: 1580507134:0;git push
+: 1580507146:0;cd ../
+: 1580507146:0;ls
+: 1580734532:0;git pull
+: 1580734536:0;git status
+: 1580734539:0;git clean -df
+: 1580734541:0;git diff
+: 1580734543:0;tig
+: 1580742780:0;ls
+: 1580742781:0;clear
+: 1580742782:0;cd ../
+: 1580742782:0;ls
+: 1580742783:0;cd ../
+: 1580742783:0;ls
+: 1580742785:0;cd share
+: 1580742786:0;ls
+: 1580742788:0;cd ../
+: 1580742809:0;git clone git@github.com/aidielse/Arsenal.wiki.git
+: 1580742811:0;git clone git@github.com/aidielse/Arsenal.git
+: 1580742818:0;git clone https://github.com/aidielse/Arsenal.git
+: 1580742825:0;git clone aidielse@github.com/aidielse/Arsenal.git
+: 1580742868:0;git clone https://github.com/aidielse/Arsenal.git
+: 1580742907:0;ssh-add ~/.ssh/github_id_rsa
+: 1580742909:0;git clone aidielse@github.com/aidielse/Arsenal.git
+: 1580742939:0;vim ~/.ssh/config
+: 1580742956:0;git clone git@github.com:aidielse/Arsenal.git
+: 1580742962:0;git clone git@github.com:aidielse/Arsenal.wikigit
+: 1580742964:0;git clone git@github.com:aidielse/Arsenal.wiki.git
+: 1580743322:0;cd Arsenal.wiki
+: 1580743323:0;ls
+: 1580743324:0;git status
+: 1580743330:0;git commit -a -m "updating Home.md
+: 1580743331:0;git commit -a -m "updating Home.md"
+: 1580743332:0;git push
+: 1580743336:0;git pull
+: 1580743339:0;git push
+: 1580743343:0;ls
+: 1580764189:0;clear
+: 1580764192:0;git status
+: 1580764193:0;git diff
+: 1580764199:0;git commit -a -m "Adding ctf wiki"
+: 1580764201:0;git push
+: 1580765435:0;ls
+: 1580765629:0;cd EXPLOITATION
+: 1580765630:0;ls
+: 1580765634:0;cd ../
+: 1580765635:0;ls
+: 1580765640:0;tree -d
+: 1580765644:0;tree
+: 1580765647:0;brew install tree
+: 1580765878:0;ls
+: 1580765888:0;tree -d
+: 1580765905:0;ls
+: 1580765926:0;git mv gets\(\)-Information-Leak.md EXPLOITATION/LINUX/USERSPACE
+: 1580765927:0;ls
+: 1580765952:0;mv Abusing-ptmalloc2-Hooks.md EXPLOITATION/LINUX/USERSPACE
+: 1580765954:0;git mv Abusing-ptmalloc2-Hooks.md EXPLOITATION/LINUX/USERSPACE
+: 1580765961:0;mv EXPLOITATION/LINUX/USERSPACE/Abusing-ptmalloc2-Hooks.md ./
+: 1580765962:0;git mv Abusing-ptmalloc2-Hooks.md EXPLOITATION/LINUX/USERSPACE
+: 1580765965:0;ls
+: 1580765975:0;git mv The-Format-String-\'\$\'-Operator.md EXPLOITATION/LINUX/USERSPACE
+: 1580765986:0;git mv EXPLOITATION/LINUX/USERSPACE/The-Format-String-\'\$\'-Operator.md EXPLOITATION
+: 1580765987:0;ls
+: 1580765999:0;git mv Leaking-the-Address-of-Libc.md EXPLOITATION/LINUX/USERSPACE
+: 1580765999:0;ls
+: 1580766006:0;git mv Leaking-the-Address-of-the-Stack.md EXPLOITATION/LINUX/USERSPACE
+: 1580766007:0;ls
+: 1580766017:0;git mv Leaking-the-Value-of-Stack-Cookies.md EXPLOITATION/LINUX/USERSPACE
+: 1580766018:0;ls
+: 1580766026:0;git mv Information-Leaks-Using-the-Link-Map.md EXPLOITATION/LINUX/USERSPACE
+: 1580766031:0;git mv ret2_dl_runtime_resolve.md EXPLOITATION/LINUX/USERSPACE
+: 1580766032:0;ls
+: 1580766037:0;vim Abusing-Exit-Handlers.md
+: 1580766088:0;ls
+: 1580766091:0;cd EXPLOITATION
+: 1580766092:0;ls
+: 1580766099:0;mkdir BROWSERS
+: 1580766107:0;git mv ../OTHER/Escaping-Javascript-Sandboxes.md ./BROWSERS
+: 1580766108:0;cd ../
+: 1580766108:0;ls
+: 1580766110:0;rmdir OTHER
+: 1580766111:0;ls
+: 1580766112:0;cd WEB
+: 1580766113:0;ls
+: 1580766119:0;cd ../
+: 1580766120:0;ls
+: 1580766123:0;vim Technique-Template.md
+: 1580766128:0;ls
+: 1580766147:0;git mv Abusing-Exit-Handlers.md EXPLOITATION/LINUX/USERSPACE
+: 1580766148:0;ls
+: 1580766151:0;rm Technique-Template.md
+: 1580766152:0;git rm Technique-Template.md
+: 1580766154:0;git status
+: 1580766160:0;git commit -a -m "Reorganizing unsored files"
+: 1580766168:0;git push
+: 1580767666:0;ls
+: 1580767669:0;cd EXPLOITATION
+: 1580767669:0;ls
+: 1580767747:0;git status
+: 1580767751:0;ls
+: 1580767755:0;cd ../
+: 1580767755:0;ls
+: 1580925989:0;cd Desktop
+: 1580925992:0;cd Arsenal.wiki
+: 1580925992:0;ls
+: 1580925993:0;git status
+: 1580925997:0;git commit -a -m "updating homepage"
+: 1580925998:0;git push
+: 1580929660:0;cd ../
+: 1580929661:0;cd Arsenal
+: 1580929666:0;git commit -a -m "updating readme"
+: 1580929667:0;git push
+: 1581439607:0;cd Desktop
+: 1581439609:0;cd Arsenal.wiki
+: 1581439610:0;ls
+: 1581439611:0;git pull
+: 1581439721:0;git status
+: 1581439727:0;git commit -a -m "Adding aslrekt"
+: 1581439728:0;git push
+: 1581439861:0;git status
+: 1581439869:0;git commit -a -m "adding more todo links"
+: 1581439870:0;git push
+: 1581440084:0;cd //
+: 1581440085:0;cd 
+: 1581440087:0;cd Desktop/Arsenal
+: 1581440089:0;git status
+: 1581440095:0;git add *
+: 1581440101:0;git commit -a -m "adding various pdfs"
+: 1581440102:0;git push
+: 1581443197:0;git commit -a -m "updating homepage"
+: 1581443200:0;cd ../
+: 1581443202:0;cd Arsenal.wiki
+: 1581443205:0;git status
+: 1581443210:0;git commit -a -m "updating homepage"
+: 1581443211:0;git push
+: 1581513353:0;git commit -a -m "finished sorting TODO's
+: 1581513357:0;git commit -a -m "finished sorting TODO's"
+: 1581513358:0;git push
+: 1581513588:0;cd ../
+: 1581513589:0;ls
+: 1581513590:0;cd Arsenal
+: 1581513592:0;git status
+: 1581513594:0;git add *
+: 1581513596:0;git status
+: 1581513607:0;git commit -a -m "adding some powerpoints"
+: 1581513609:0;git push
+: 1581514057:0;cd ../
+: 1581514059:0;cd Arsenal.wiki
+: 1581514060:0;git status
+: 1581514061:0;git diff
+: 1581514072:0;git commit -a -m "adding some links to powerpoints added to arsenal"
+: 1581514073:0;git push
+: 1581515692:0;cd ../
+: 1581515693:0;cd Arsenal
+: 1581515694:0;ls
+: 1581515695:0;cd CHALLENGES
+: 1581515695:0;ls
+: 1581515698:0;cd PWN
+: 1581515700:0;tree
+: 1581515703:0;git rm -rf the_gauntlet
+: 1581515708:0;git rm heaps_of_fun
+: 1581515716:0;git rm -rf heaps_of_fun
+: 1581515718:0;git status
+: 1581515730:0;git commit -a -m "removing copy of the gauntlet and stale heap challenges"
+: 1581515731:0;git push
+: 1581516972:0;cd ../../
+: 1581516977:0;cd ../Arsenal.wiki
+: 1581516978:0;git status
+: 1581516983:0;git commit -a -m "fixing broken link"
+: 1581516989:0;git push
+: 1581517038:0;git reset --hard
+: 1581517053:0;git commit -a -m "fixing broken link"
+: 1581517061:0;git push
+: 1581517100:0;git commit -a -m "Adding rpisec blog link"
+: 1581517101:0;git push
+: 1581517198:0;git commit -a -m "Fixing link"
+: 1581517199:0;git push
+: 1581517791:0;git status
+: 1581517800:0;git commit GUIDES/* -m "various fixes for VM-challenges page"
+: 1581517806:0;git diff Home.md
+: 1581517814:0;git commit -a -m "adding some tools links to Homepage"
+: 1581517815:0;git push
+: 1581518089:0;git status
+: 1581518093:0;git diff GUIDES
+: 1581518121:0;git commit -a -m "adding link to Linux Inside ebook"
+: 1581518140:0;git push
+: 1581518806:0;git commit -a -m "cleaning up x86-Segmentation page"
+: 1581518808:0;git push
+: 1581519159:0;git commit -a -m "updating homepage link"
+: 1581519160:0;git push
+: 1581519166:0;git pull
+: 1581519177:0;git push
+: 1581519185:0;ls
+: 1581519197:0;git mv Leveraging-dl_runtime_resolve\(\).md EXPLOITATION/LINUX/USERSPACE/CONTROL_FLOW_HIJACKING
+: 1581519214:0;git status
+: 1581519220:0;git commit -a -m "moving dl-runtime-resolve md file"
+: 1581519222:0;git push
+: 1581519303:0;git commit -a -m "fixing broken link"; git push
+: 1581519368:0;ls
+: 1581519373:0;git mv EXPLOITATION/BROWSERS/Escaping-Javascript-Sandboxes.md WEB
+: 1581519377:0;rm -rf EXPLOITATION
+: 1581519380:0;git reset --hard
+: 1581519384:0;tig
+: 1581519394:0;git mv EXPLOITATION/BROWSERS/Escaping-Javascript-Sandboxes.md WEB
+: 1581519395:0;git status
+: 1581519431:0;git commit -a -m "moving Escaping JS sandboxes article to WEB folder, removing link from homepage"
+: 1581519432:0;git push
+: 1581519690:0;git commit -a -m "cleaning up kernel exploit technique pages"
+: 1581519691:0;git push
+: 1581519719:0;git commit -a -m "cleaning up kernel exploit technique pages"
+: 1581519720:0;git push
+: 1581519801:0;git status
+: 1581519817:0;git commit -a -m "finished reviewing Linux Userspace control flow hijacking pages"
+: 1581519823:0;git push
+: 1581519899:0;git status
+: 1581519908:0;git commit -a -m "removing dead link"
+: 1581519909:0;git push
+: 1581519992:0;git commit -a -m "updating link map page"
+: 1581519997:0;git push
+: 1581520045:0;git status
+: 1581520195:0;git mv EXPLOITATION/LINUX/USERSPACE/MISC/Miscellaneous-Tips-\&-Tricks.md EXPLOITATION/GENERAL
+: 1581520238:0;git mv EXPLOITATION/LINUX/USERSPACE/MISC/Seccomp-Filters.md GUIDES/SYSTEM_INTERNALS/
+: 1581520267:0;git status
+: 1581520276:0;git commit -a -m "moving some pages around"
+: 1581520277:0;git push
+: 1581520391:0;git pull
+: 1581521360:0;git status
+: 1581521365:0;git commit -a -m "Adding Web section"
+: 1581521366:0;git push
+: 1581546481:0;clear
+: 1581546482:0;tree
+: 1581546604:0;clear
+: 1581546626:0;git status
+: 1581546628:0;git diff
+: 1581546672:0;:q
+: 1581546673:0;clear
+: 1581546675:0;tree
+: 1581547799:0;git status
+: 1581547814:0;git commit -a -m "updating misc tips and tricks"
+: 1581547816:0;git push
+: 1581548420:0;ls
+: 1581548424:0;cd EXPLOITATION/LINUX/USERSPACE
+: 1581548425:0;ls
+: 1581548428:0;mkdir WRITE_PRIMITIVES
+: 1581548529:0;l
+: 1581548535:0;git mv WRITE_PRIMITIVES MEMORY_CORRUPTION
+: 1581548538:0;ls
+: 1581548543:0;mv WRITE_PRIMITIVES MEMORY_CORRUPTION
+: 1581548544:0;ls
+: 1581548750:0;git status
+: 1581548755:0;git add ../Launching-A-Process-Without-ASLR.md
+: 1581548759:0;git add ../../GENERAL/*
+: 1581548761:0;git add MEMORY_CORRUPTION
+: 1581549045:0;git status
+: 1581549053:0;git commit MEMORY_CORRUPTION/Overwriting-Pointers-Without-Invalidating-Them.md
+: 1581549070:0;git add MEMORY_CORRUPTION/Overwriting-Pointers-Without-Invalidating-Them.md 
+: 1581549072:0;git status
+: 1581549080:0;git add ../../../Home.md
+: 1581549082:0;cd ../../
+: 1581549089:0;git rm GENERAL/Miscellaneous-Tips-\&-Tricks.md
+: 1581549094:0;cd ../
+: 1581549095:0;ls
+: 1581549096:0;git status
+: 1581549107:0;git commit -a -m "split up misc tips and tricks into seperate files"
+: 1581549118:0;git rm EXPLOITATION/GENERAL/Miscellaneous-Tips-\&-Tricks.md
+: 1581549139:0;git commit -a -m "deleted misc tips and tricks page"
+: 1581549142:0;git push
+: 1581549147:0;git pull
+: 1581549156:0;git push
+: 1581549296:0;ls
+: 1581549298:0;cd GUIDES
+: 1581549301:0;mkdir TOOLS
+: 1581549302:0;cd TOOLS
+: 1581549312:0;touch pwntools-Tips.md
+: 1581549314:0;git add pwntools-Tips.md
+: 1581549402:0;git status
+: 1581549412:0;git rm pwntools-Tips.md
+: 1581549415:0;git add pwntools-Tips-and-Tricks.md
+: 1581549416:0;git status
+: 1581549426:0;git commit -a -m "adding pwntools tips and tricks page"
+: 1581549428:0;git push
+: 1581554359:0;git status
+: 1581554397:0;git commit -a -m "Updating a Technique, closes #13"
+: 1581554399:0;git push
+: 1581557625:0;git status
+: 1581557627:0;exit
+: 1581557636:0;cd Desktop
+: 1581557636:0;ls
+: 1581557642:0;cd Arsenal.wiki
+: 1581557642:0;tree
+: 1581624311:0;cd Desktop
+: 1581624314:0;cd share
+: 1581624317:0;ls
+: 1581624329:0;git clone git@github.com:aidielse/pwnable_kr.git
+: 1581624337:0;cd pwnable_kr
+: 1581624342:0;grep -re "encode"
+: 1581624344:0;grep -re "encode" ./
+: 1581624469:0;kstool
+: 1581624477:0;nasm
+: 1581625657:0;ls
+: 1581625660:0;cd Desktop
+: 1581625661:0;brew install SRI-CSL/sri-csl/yices2
+: 1581625893:0;cd Desktop
+: 1581625894:0;git clone https://bitbucket.org/mitthu/alpha_loaders.git
+: 1581625896:0;cd alpha_loaders
+: 1581625896:0;ls
+: 1581625900:0;make
+: 1581625911:0;make clean
+: 1581625911:0;ls
+: 1581625912:0;cd ../
+: 1581625914:0;cd share
+: 1581625915:0;git clone https://bitbucket.org/mitthu/alpha_loaders.git
+: 1581625929:0;cd ../
+: 1581625933:0;git clone https://github.com/RolfRolles/SynesthesiaYS
+: 1581625966:0;cd SynesthesiaYS
+: 1581625966:0;ls
+: 1581625971:0;vim README.md
+: 1581625981:0;vim synesthesia-1.ys
+: 1581625986:0;yices
+: 1581626000:0;yices -h
+: 1581626004:0;ls
+: 1581626011:0;vim progsynth.ys
+: 1581626017:0;vim synesthesia-x86.ys
+: 1581632902:0;exit
+: 1581694951:0;cd Desktop
+: 1581694953:0;cd Arsenal.wiki
+: 1581694954:0;ls
+: 1581694954:0;git status
+: 1581694959:0;git add *
+: 1581694960:0;git status
+: 1581694968:0;git commit -a -m "adding Technique"
+: 1581694971:0;git push
+: 1581698665:0;clear
+: 1581698667:0;cd Desktop
+: 1581698667:0;ls
+: 1581698673:0;cd Arsenal.wiki
+: 1581698674:0;git status
+: 1581698855:0;git add *
+: 1581698983:0;git rm EXPLOITATION/LINUX/USERSPACE/INFORMATION_LEAKS/Leaking-the-Address-of-Libc.md
+: 1581698992:0;git rm EXPLOITATION/LINUX/USERSPACE/INFORMATION_LEAKS/Leaking-the-Address-of-the-Stack.md
+: 1581699015:0;git rm EXPLOITATION/LINUX/USERSPACE/INFORMATION_LEAKS/Leaking-the-Value-of-Stack-Cookies.md
+: 1581699033:0;git status
+: 1581699036:0;git add *
+: 1581699037:0;git status
+: 1581699050:0;git commit -a -m "condensing memory leaks targets to a single article"
+: 1581699052:0;git push
+: 1581699089:0;git commit -a -m "updating home"
+: 1581699091:0;git push
+: 1581699146:0;git commit -a -m "updating home"
+: 1581699147:0;git push
+: 1582117021:0;git status
+: 1582117025:0;git diff
+: 1582117038:0;git commit -a -m "updating home"
+: 1582117039:0;git push
+: 1582121853:0;git status
+: 1582121856:0;git add *
+: 1582121857:0;git status
+: 1582121865:0;git commit -a -m "adding Injecting Exit Handlers page"
+: 1582121866:0;git push
+: 1582126915:0;git add *
+: 1582126917:0;git status
+: 1582126929:0;git commit -a -m "reorganizing some stuff, adding TODO md files"
+: 1582126930:0;git push
+: 1582127115:0;git add *
+: 1582127121:0;git commit -a -m "Adding one-gadget win todo and page"
+: 1582127123:0;git push
+: 1582127234:0;git add *
+: 1582127241:0;git commit -a -m "adding page and todo for stack clash technique"
+: 1582127243:0;git push
+: 1582127464:0;git add *; git commit -a -m "adding page and todo for ret2csu technique"
+: 1582127465:0;git push
+: 1582127592:0;git add *; git commit -a -m "adding page and todo for ASLREKT technique"
+: 1582127593:0;git push
+: 1582127924:0;git add *; git commit -a -m "adding page and todo for vla phrack technique""
+: 1582127925:0;git add *; git commit -a -m "adding page and todo for vla phrack technique"
+: 1582127927:0;git push
+: 1582127931:0;git pull
+: 1582127935:0;git push
+: 1582128005:0;git pull
+: 1582128333:0;git add *; git commit -a -m "adding page and todo for non-terminated adjacent memspaces phrack technique"
+: 1582128340:0;git push
+: 1582129133:0;git add *; git commit -a -m "adding page and todo for frame pointer phrach technique"
+: 1582129139:0;git push
+: 1582129190:0;git commit -a -m "updating home"
+: 1582129191:0;git push
+: 1582133599:0;git status
+: 1582144617:0;git commit -a -m "fixing broken link"
+: 1582145538:0;git commit -a -m "filling in one_gadget win page"
+: 1582145540:0;git push
+: 1582145611:0;ks
+: 1582145612:0;cd ../
+: 1582145612:0;ls
+: 1582145619:0;cd share
+: 1582145619:0;ls
+: 1582145620:0;cd pwnable_kr
+: 1582145620:0;ls
+: 1582145625:0;cd tiny_hard
+: 1582145625:0;ls
+: 1582145628:0;vim tiny.c
+: 1582145673:0;tmux
+: 1582145676:0;ls
+: 1582145677:0;cd ../../
+: 1582145677:0;ls
+: 1582145682:0;cd ../
+: 1582145682:0;ls
+: 1582145686:0;cd Arsenal.wiki
+: 1582145686:0;ls
+: 1582145689:0;cd EXPLOITATION/LINUX
+: 1582145690:0;ls
+: 1582145691:0;cd USERSPACE
+: 1582145691:0;ls
+: 1582145698:0;git mv ./*/*.md ./
+: 1582145700:0;ls
+: 1582145703:0;rmdir CONTROL_FLOW_HIJACKING
+: 1582145704:0;rmdir INFORMATION_LEAKS
+: 1582145706:0;rmdir MEMORY_CORRUPTION
+: 1582145714:0;git commit -a -m "moving around some md files"
+: 1582145715:0;git push
+: 1582145719:0;git p
+: 1582145721:0;git pull
+: 1582145727:0;git push
+: 1582147854:0;ls
+: 1582147855:0;vim tiny.c
+: 1582149907:0;git status
+: 1582149913:0;git commit -a -m "adding ptrace writeup"
+: 1582149914:0;git push
+: 1582150241:0;git status
+: 1582150258:0;git commit -a -m "small cleanups for ptrace writeup"
+: 1582150259:0;git push
+: 1582150304:0;git status
+: 1582150307:0;cd ../../
+: 1582150308:0;git reset --hard
+: 1582150311:0;cd pwnable_kr
+: 1582150312:0;git reset --hard
+: 1582150337:0;git push
+: 1582298885:0;dpkg-dev
+: 1582298887:0;dpkg-deb
+: 1582298897:0;cd Downloads
+: 1582298897:0;ls
+: 1582298902:0;mv IMAGE_HX_AGENT_LINUX_30.19.3 ~/Desktop/share
+: 1582299276:0;mv mblinux_0.4.0_all_ubuntu_18.04.deb ~/Desktop/share
+: 1583758427:0;cd Desktop
+: 1583758428:0;ls
+: 1583758429:0;cd vmsh
+: 1583758429:0;ls
+: 1583758432:0;cd share
+: 1583758435:0;cd ../
+: 1583758437:0;cd Arsenal.wiki
+: 1583758438:0;git status
+: 1583758445:0;git commit -a -m "Adding link to heaven's gate technique"
+: 1583758446:0;git push
+: 1583758450:0;git pull
+: 1583758455:0;git push
+: 1583758459:0;tig
+: 1584391351:0;cd Desktop
+: 1584391352:0;clear
+: 1584391352:0;ls
+: 1584391355:0;git clone https://llcad-github.llan.ll.mit.edu/rst/kubernetes-deployment
+: 1584391360:0;cd kubernetes-deployment
+: 1584391361:0;ls
+: 1584391365:0;kubectl
+: 1584391372:0;brew upgrade
+: 1584391843:0;brew update
+: 1585581681:0;cd Desktop
+: 1585581682:0;ls
+: 1585581704:0;git clone git@github.com:aidielse/heap_exploitation_in_2020.git
+: 1585581708:0;cd heap_exploitation_in_2020
+: 1585581708:0;ls
+: 1585581713:0;vim README.md
+: 1585581758:0;tree
+: 1585581759:0;cat README.md
+: 1585597627:0;cd Desktop
+: 1585597628:0;cd heap_exploitation_in_2020
+: 1585597634:0;git commit -a -m "updating outline"
+: 1585597635:0;git push
+: 1585670141:0;cd Desktop/heap_exploitation_in_2020
+: 1585670141:0;ls
+: 1585670146:0;git status
+: 1585670147:0;tig
+: 1585670160:0;git commit -a -m "adding some notes"; git push
+: 1585671806:0;htop
+: 1585671832:0;clear
+: 1585671833:0;tmux
+: 1585671840:0;clear
+: 1585671840:0;ls
+: 1585671843:0;git status
+: 1585671844:0;git diff
+: 1586133745:0;tmux
+: 1586133756:0;exit
+: 1586133757:0;brew upgrade
+: 1588004339:0;brew upgrade xcode
+: 1588005975:0;brew update xcode
+: 1588005978:0;brew upgrade
+: 1588086450:0;cd Desktop
+: 1588086450:0;ls
+: 1588086454:0;clear
+: 1588086454:0;ls
+: 1588086457:0;cd wyze_cam
+: 1588086457:0;ls
+: 1588086460:0;xxd do.bin
+: 1588086464:0;xxd do.bin | less
+: 1588086488:0;ls
+: 1588086491:0;strings do.bin
+: 1588086662:0;rm do.bin
+: 1588087382:0;clear
+: 1588087383:0;ls
+: 1588087389:0;vim flash_rip.txt
+: 1588087483:0;ls
+: 1588087488:0;xxd ou.bin
+: 1588087495:0;file ou.bin
+: 1588087499:0;xxd ou.bin| less
+: 1588088299:0;ls
+: 1588088302:0;vim a1_a2.csv
+: 1588088312:0;ls
+: 1588088717:0;git clone https://github.com/trou/saleae-spi
+: 1588088719:0;ls
+: 1588088720:0;ruby
+: 1588088724:0;man ruby
+: 1588088725:0;ls
+: 1588088727:0;cd saleae-spi
+: 1588088727:0;ls
+: 1588088741:0;./decode_spi.rb ../a1_a2.csv a1_a2.bin
+: 1588088756:0;./decode_spi.rb ../a1_a2.csv dump
+: 1588088765:0;mv ../a1_a2.csv ./
+: 1588088772:0;./decode_spi.rb a1_a2.csv
+: 1588088777:0;./decode_spi.rb 
+: 1588088780:0;./decode_spi.rb help
+: 1588088783:0;vim decode_spi.rb
+: 1588088802:0;ruby decode_spi.rb
+: 1588088805:0;./decode_spi.rb
+: 1588088818:0;./decode_spi.rb a1_a2.csv dump
+: 1588090585:0;ls
+: 1588090588:0;cd ../
+: 1588090589:0;ls
+: 1588090593:0;vim spi.txt
+: 1588090612:0;tmux
+: 1588090614:0;vim spi.txt
+: 1588090617:0;vim parse.py
+: 1588090837:0;python
+: 1588091458:0;ctr
+: 1588091465:0;vim spi_parse.py
+: 1588091517:0;python -i spi_parse.py
+: 1588091531:0;vim spi_parse.py
+: 1588091844:0;python -i spi_parse.py
+: 1588091848:0;vim spi_parse.py
+: 1588091864:0;python -i spi_parse.py
+: 1588092013:0;vim spi_parse.py
+: 1588092052:0;python -i spi_parse.py
+: 1588092060:0;vim spi_parse.py
+: 1588092113:0;python -i spi_parse.py
+: 1588092219:0;vim spi_parse.py
+: 1588092266:0;python -i spi_parse.py
+: 1588092269:0;ls
+: 1588092275:0;chmod +x spi_parse.py
+: 1588092284:0;python -i spi_parse.py
+: 1588092287:0;vim spi_parse.py
+: 1588092318:0;python -i spi_parse.py
+: 1588092390:0;ls
+: 1588092394:0;vi spi_parse.py
+: 1588092442:0;python -i spi_parse.py
+: 1588092591:0;vim spi_parse.py
+: 1588092632:0;ls
+: 1588092639:0;vim spi_parse.py
+: 1588092651:0;ls
+: 1588092655:0;python spi_parse.py
+: 1588092673:0;pypy
+: 1588092675:0;brew install pypy
+: 1588092918:0;which pypy
+: 1588092920:0;ls
+: 1588092937:0;pypy -i spi_parse.py
+: 1588093011:0;vim spi_parse.py
+: 1588093320:0;pypy spi_parse.py
+: 1588093324:0;htop
+: 1588093334:0;ls
+: 1588093337:0;cd spi_packet_dump
+: 1588093337:0;ls
+: 1588093341:0;ls -lah
+: 1588093350:0;xxd packet_0.raw
+: 1588093372:0;xxd packet_1.raw
+: 1588093377:0;xxd packet_2.raw
+: 1588093380:0;xxd packet_2.raw | less
+: 1588093416:0;ls
+: 1588093419:0;xxd packet_3.raw
+: 1588093423:0;xxd packet_3.raw | less
+: 1588093437:0;strings packet_2.raw
+: 1588093443:0;strings packet_2.raw | grep password
+: 1588093447:0;strings packet_2.raw | grep admin
+: 1588093450:0;strings packet_3.raw
+: 1588093453:0;strings packet_3.raw | grep admin
+: 1588093456:0;strings packet_3.raw | grep password
+: 1588093464:0;strings packet_4.raw
+: 1588093467:0;strings packet_5.raw
+: 1588093470:0;strings packet_6.raw
+: 1588093471:0;ls
+: 1588093473:0;ls -lah
+: 1588093476:0;strings packet_7.raw
+: 1588093478:0;strings packet_8.raw
+: 1588093481:0;strings packet_10.raw
+: 1588093485:0;strings packet_10.raw | less
+: 1588093487:0;ls
+: 1588093491:0;file packet_10.raw
+: 1588093494:0;xxd packet_10.raw
+: 1588093497:0;xxd packet_10.raw | less
+: 1588093504:0;ls
+: 1588093510:0;binwalk
+: 1588093513:0;brew install binwalk
+: 1588093616:0;binwalk -h
+: 1588093631:0;ls
+: 1588093641:0;binwalk *.raw
+: 1588093657:0;binwalk -e *.raw
+: 1588093687:0;ls
+: 1588093699:0;brew install lzop
+: 1588093713:0;ls
+: 1588093715:0;rm *.extracted
+: 1588093719:0;rm -rf *.extracted
+: 1588093721:0;ls
+: 1588093740:0;binwalk -e *.raw
+: 1588093760:0;ls
+: 1588093765:0;cd _packet_3.raw.extracted
+: 1588093766:0;ls
+: 1588093768:0;file 24B3C.lzo
+: 1588093770:0;xxd 24B3C.lzo
+: 1588093773:0;xxd 24B3C.lzo | less
+: 1588093776:0;man lzo
+: 1588093779:0;man lzop
+: 1588093786:0;lzop -e 24B3C.lzo
+: 1588093792:0;lzop 24B3C.lzo
+: 1588093797:0;man lzop
+: 1588093815:0;lzop -d 24B3C.lzo
+: 1588093816:0;ls
+: 1588093819:0;zzs 24B3C.lzo
+: 1588093821:0;cd ../
+: 1588093821:0;ls
+: 1588093825:0;cd _packet_10.raw.extracted
+: 1588093825:0;ls
+: 1588093828:0;ls -lah
+: 1588093830:0;file *
+: 1588093841:0;ls
+: 1588093845:0;file 200064
+: 1588093853:0;xxd 200064
+: 1588093856:0;xxd 200064 | less
+: 1588093862:0;ls
+: 1588093865:0;ls -lah
+: 1588093871:0;file 44
+: 1588093873:0;xxd 44
+: 1588093876:0;xxd 44 | less
+: 1588093877:0;ls
+: 1588093888:0;file *
+: 1588093890:0;rm *.xz
+: 1588093891:0;file *
+: 1588093984:0;/Users/aa26678/Desktop/TOOLS/ghidra_dists/ghidra_9.1.1/ghidraRun ; exit;
+: 1588094020:0;ls
+: 1588094022:0;ls -lah
+: 1588094024:0;file *
+: 1588094032:0;file * | grep ELF
+: 1588094038:0;xxd 21b648
+: 1588094041:0;xxd 21b648 | less
+: 1588094044:0;ls -lah
+: 1588094047:0;ls
+: 1588094048:0;file *
+: 1588094052:0;rm *.7z
+: 1588094053:0;ls -lah
+: 1588094071:0;xxd 246754 | less
+: 1588094076:0;ls
+: 1588094078:0;ls -lah
+: 1588094081:0;mkdir elfs
+: 1588094084:0;mv 200064 elfs
+: 1588094090:0;mv 23AFB4 elfs
+: 1588094093:0;mv 251860 elfs
+: 1588094169:0;file *
+: 1588094686:0;readelf
+: 1588094688:0;brew install readelf
+: 1588095655:0;ls
+: 1588095659:0;file elfs/*
+: 1588095670:0;cd elfs
+: 1588095695:0;ldd
+: 1588095702:0;cd ../
+: 1588095706:0;strings ./ | grep "ELF"
+: 1588095710:0;strings ./* | grep "ELF"
+: 1588095722:0;grep -re "ELF" ./
+: 1588095729:0;strings 23A404| grep ELF
+: 1588095733:0;ls
+: 1588095738:0;file 23A404
+: 1588095741:0;xxd 23A404
+: 1588095744:0;xxd 23A404 | les
+: 1588095745:0;xxd 23A404 | less
+: 1588095756:0;ls
+: 1588095759:0;ls -lah
+: 1588095762:0;strings 20D470| less
+: 1588095766:0;strings 20D470 | less
+: 1588095779:0;ls
+: 1588095781:0;file 20D470
+: 1588095785:0;xxd 20D470
+: 1588095787:0;xxd 20D470 | less
+: 1588095799:0;ls
+: 1588095806:0;binwalk -e 20D470
+: 1588095820:0;ls
+: 1588095823:0;ls -lah
+: 1588095827:0;file 21B648
+: 1588095832:0;binwalk -e 21B648
+: 1588095841:0;ls
+: 1588095842:0;ls -lah
+: 1588095859:0;rm -rf *.extracted
+: 1588095862:0;mv elfs ../
+: 1588095862:0;ls
+: 1588095866:0;binwalk -e ./*
+: 1588095876:0;ls
+: 1588095878:0;ls -lah
+: 1588095887:0;binwalk -e 23A404
+: 1588095890:0;ls
+: 1588095898:0;ls -lah
+: 1588095913:0;cd _44.extracted
+: 1588095915:0;ks
+: 1588095915:0;ls
+: 1588095917:0;fuke 4C1CD8.xz
+: 1588095924:0;file 4C1CD8.xz
+: 1588095926:0;cd ..
+: 1588095926:0;ls
+: 1588095928:0;man binwalk
+: 1588095931:0;binwalk -h
+: 1588095948:0;ls
+: 1588095954:0;rm *.extracted
+: 1588095955:0;ls
+: 1588095960:0;rm -rf *.extracted
+: 1588095960:0;ls
+: 1588095965:0;binwalk -eM ./*
+: 1588095975:0;ls
+: 1588095976:0;tree
+: 1588095986:0;cd _20D470.extracted
+: 1588095987:0;ls
+: 1588095990:0;tar -xvf 5904F.tar
+: 1588095991:0;ls
+: 1588095993:0;file 5904F.tar
+: 1588095995:0;xxd 5904F.tar
+: 1588095998:0;xxd 5904F.tar | less
+: 1588096004:0;ls
+: 1588096005:0;cd ..
+: 1588096005:0;ls
+: 1588096008:0;clear
+: 1588096009:0;ls
+: 1588096012:0;rm *.extracted
+: 1588096015:0;binwalk -h
+: 1588096034:0;binwalk -e -M ./*
+: 1588096043:0;ls
+: 1588096048:0;cd _44.extracted
+: 1588096048:0;ls
+: 1588096049:0;cd ../
+: 1588096053:0;cd _44-0.extracted
+: 1588096053:0;ls
+: 1588096055:0;cd ../
+: 1588096058:0;cd _20D470.extracted
+: 1588096058:0;ls
+: 1588096059:0;cd ../
+: 1588096064:0;rm *.extracted
+: 1588096068:0;rm -rf *.extracted
+: 1588096071:0;binwalk -e ./*
+: 1588096080:0;ls
+: 1588096091:0;rm *.extracted
+: 1588096096:0;rm -rf *.extracted
+: 1588096097:0;ls -lah
+: 1588096103:0;binwalk -e 23A404
+: 1588096105:0;ls
+: 1588096115:0;ls -lah
+: 1588096120:0;file 23A404
+: 1588096127:0;xxd 23A404 | less
+: 1588096171:0;binwalk --dd=".*" ./*
+: 1588096180:0;ls
+: 1588096184:0;cd _23A404.extracted
+: 1588096184:0;ls
+: 1588096186:0;ls -lah
+: 1588096187:0;file *
+: 1588096193:0;vim 38F53
+: 1588096225:0;ks
+: 1588096227:0;ls
+: 1588096233:0;vim 38918
+: 1588096349:0;ls
+: 1588096351:0;ls -lah
+: 1588096352:0;file *
+: 1588096361:0;vim 38F53
+: 1588096409:0;ls
+: 1588096413:0;ls -lah
+: 1588096416:0;cd ../
+: 1588096420:0;file ./*/*
+: 1588096437:0;vim _21B648.extracted/78918
+: 1588096465:0;vim _21B648.extracted/78F53
+: 1588096499:0;vim _229D04.extracted/58918
+: 1588096527:0;ls
+: 1588096528:0;cd ..
+: 1588096529:0;ls
+: 1588096531:0;mkdir old
+: 1588096535:0;mv _packet_* old/
+: 1588096538:0;mv elfs old
+: 1588096538:0;ls
+: 1588096545:0;mv old ../old_binwalk
+: 1588096554:0;binwalk --dd=".*" ./*
+: 1588096558:0;ls
+: 1588096562:0;cd _packet_10.raw.extracted
+: 1588096563:0;ls
+: 1588096564:0;ls -lah
+: 1588096566:0;file 4
+: 1588096570:0;file 44
+: 1588096573:0;file 44.7z
+: 1588096580:0;file 200064
+: 1588096584:0;strings ./* | grep root
+: 1588096597:0;strings ./* | grep root:
+: 1588096600:0;strings ./* | grep "root:"
+: 1588096604:0;ls
+: 1588096608:0;ls -lah
+: 1588096614:0;file ./*
+: 1588096625:0;unxz
+: 1588096629:0;unxz 200064
+: 1588096637:0;mv 200064 200064.xz
+: 1588096638:0;unxz 200064
+: 1588096641:0;unxz 200064.xz
+: 1588096643:0;ls
+: 1588096648:0;mv 200064.xz 200064
+: 1588096654:0;binwalk --dd=".*" ./*
+: 1588096665:0;ls
+: 1588096669:0;cd ../
+: 1588096676:0;rm -rf *.extracted
+: 1588096677:0;ls
+: 1588096682:0;binwalk -e ./*
+: 1588096701:0;ls
+: 1588096714:0;mv _packet_3.raw.extracted Android_bootimg
+: 1588096715:0;ls
+: 1588096775:0;mv _packet_10.raw.extracted data
+: 1588096777:0;ks
+: 1588096778:0;ls
+: 1588096779:0;cd data
+: 1588096780:0;ls
+: 1588096782:0;ls -lah
+: 1588096789:0;file 200064
+: 1588096795:0;mv 200064 200064_1
+: 1588096800:0;unxz 200064.xz
+: 1588096801:0;ls
+: 1588096811:0;binwalk 200064.xz
+: 1588096816:0;binwalk 200064_1
+: 1588096823:0;ls
+: 1588096825:0;ls -lah
+: 1588096832:0;mkdir xz_dir
+: 1588096834:0;mv *.xz xz_dir
+: 1588096836:0;ls
+: 1588096841:0;mv 44.7z xz_dir
+: 1588096850:0;mv xz_dir archive+dir
+: 1588096857:0;mv archive+dir archive_dir
+: 1588096857:0;ls
+: 1588096859:0;ls -lah
+: 1588096897:0;ls
+: 1588096904:0;file *
+: 1588096913:0;mkdir elfs
+: 1588096917:0;mv 200064_1 200064
+: 1588096919:0;mv 200064 elfs
+: 1588096925:0;mv 23AFB4 elfs
+: 1588096928:0;mv 251860 elfs
+: 1588096929:0;ls -lah
+: 1588096931:0;file *
+: 1588096941:0;xxd 20D470
+: 1588096943:0;xxd 20D470 | less
+: 1588096957:0;ls
+: 1588096959:0;binwalk 20D470
+: 1588096970:0;file 20D470
+: 1588096984:0;binwalk -e 20D470
+: 1588096988:0;ls
+: 1588096989:0;cd _20D470.extracted
+: 1588096990:0;ls
+: 1588096995:0;file 5904F.tar
+: 1588096998:0;tar -xvf 5904F.tar
+: 1588097001:0;binwalk 5904F.tar
+: 1588097008:0;ls
+: 1588097011:0;binwalk -e 5904F.tar
+: 1588097013:0;ls
+: 1588097014:0;cd _5904F.tar.extracted
+: 1588097015:0;ls
+: 1588097017:0;file 0.tar
+: 1588097017:0;ls
+: 1588097019:0;rm 0.tar
+: 1588097020:0;cd ../
+: 1588097028:0;rm _20D470.extracted
+: 1588097033:0;rm -rf _20D470.extracted
+: 1588097033:0;ls
+: 1588097046:0;history | grep binwalk
+: 1588097056:0;binwalk --dd=".*" -e 20D470
+: 1588097059:0;cd _20D470.extracted
+: 1588097059:0;ls
+: 1588097061:0;ls -lah
+: 1588097064:0;file *
+: 1588097088:0;file B264E
+: 1588097091:0;file B264E | less
+: 1588097098:0;xxd B264E | less
+: 1588097153:0;ls
+: 1588097156:0;file *
+: 1588097169:0;cp B264E ../elfs/
+: 1588097174:0;xxd B2C7E| less
+: 1588097189:0;strings B2C7E
+: 1588097191:0;strings B2C7E | less
+: 1588097201:0;mv B2C7E ../elfs
+: 1588097201:0;ls
+: 1588097207:0;ls -lah
+: 1588097215:0;xxds 17938A| less
+: 1588097219:0;xxd 17938A | less
+: 1588097273:0;binwalk --20D
+: 1588097276:0;binwalk ../20D470
+: 1588097290:0;ls
+: 1588097291:0;ls -lah
+: 1588097296:0;xxd 5083F 
+: 1588097305:0;xxd 5083F | less
+: 1588097338:0;ls -lah
+: 1588097349:0;xxd 508A9 | less
+: 1588097356:0;l
+: 1588097358:0;ls
+: 1588097361:0;ls -lah
+: 1588097365:0;file B264E
+: 1588097367:0;file *
+: 1588097370:0;xxd 5904f
+: 1588097373:0;xxd 5904f | less
+: 1588097382:0;ls
+: 1588097384:0;cd ../
+: 1588097384:0;ls
+: 1588097388:0;file 20D4790
+: 1588097389:0;file 20D470
+: 1588097392:0;xxd 20D470| less
+: 1588097412:0;ls
+: 1588097413:0;ls -lah
+: 1588097416:0;rm _20D470.extracted
+: 1588097417:0;ls
+: 1588097421:0;rm -rf _20D470.extracted
+: 1588097422:0;ls
+: 1588097423:0;ls -lah
+: 1588097428:0;binwalk 21B648
+: 1588097450:0;binwalk --dd=".*" -e 21B648
+: 1588097453:0;ls
+: 1588097455:0;cd _21B648.extracted
+: 1588097456:0;ls
+: 1588097457:0;file *
+: 1588097464:0;vim 78918
+: 1588097473:0;cd ../
+: 1588097473:0;ls
+: 1588097481:0;cd _21B648.extracted
+: 1588097482:0;ls
+: 1588097490:0;mv 795A7 ../elfs
+: 1588097493:0;mv 81173 ../elfs
+: 1588097498:0;mv 83c17 ../elfs
+: 1588097504:0;mv 8674e ../elfs
+: 1588097508:0;mv 92c7e ../elfs
+: 1588097511:0;ls
+: 1588097512:0;cd ../
+: 1588097513:0;ls
+: 1588097516:0;ls -lah
+: 1588097526:0;binwalk --dd=".*" -e 229d04
+: 1588097562:0;ls
+: 1588097564:0;ls -lsj
+: 1588097565:0;ls -lah
+: 1588097569:0;cd archive_dir
+: 1588097569:0;ls
+: 1588097570:0;ls -lah
+: 1588097575:0;cd ..
+: 1588097576:0;ls
+: 1588097577:0;ls -lah
+: 1588097587:0;binwalk --dd=".*" -e ./*
+: 1588097622:0;cd _44.extracted
+: 1588097624:0;kls
+: 1588097624:0;l
+: 1588097625:0;ls
+: 1588097626:0;ls -lah
+: 1588097633:0;file 3FB060
+: 1588097636:0;xxd 3FB060
+: 1588097640:0;file 3FB060 | less
+: 1588097644:0;xxd 3FB060 | less
+: 1588097655:0;cd ../
+: 1588097655:0;ls
+: 1588097664:0;file ./*/*
+: 1588097688:0;ls
+: 1588097688:0;cd elfs
+: 1588097689:0;ls
+: 1588097690:0;ls -lah
+: 1588097698:0;md5sum B2C7E
+: 1588097702:0;md5 b2c7e
+: 1588097707:0;md5 251860
+: 1588097729:0;rm B2C7E
+: 1588097729:0;ls
+: 1588097732:0;strings b264e | less
+: 1588097742:0;strings 92c7e | less
+: 1588097748:0;md5 92c7e
+: 1588097752:0;md5 b2c7e
+: 1588097763:0;md5 251860 `
+: 1588097766:0;md5 251860 
+: 1588097773:0;rm 92c7e
+: 1588097773:0;ls
+: 1588097776:0;ls -lah
+: 1588097787:0;strings 795A7| less
+: 1588097826:0;mv 795A7 uclibc-gcc
+: 1588097826:0;ls
+: 1588097833:0;strings 81173| less
+: 1588097895:0;mv 81173 uclibc-libc
+: 1588097895:0;ls
+: 1588097901:0;strings 83c17| less
+: 1588097914:0;ls
+: 1588097915:0;ls -lah
+: 1588097928:0;strings 8674e | less
+: 1588097954:0;ls
+: 1588097959:0;ls -lah
+: 1588097964:0;strings 200064 | less
+: 1588097971:0;mv 200064 busybox
+: 1588097972:0;ls
+: 1588097976:0;strings 23AFB4| less
+: 1588097998:0;ls
+: 1588098001:0;strings 251860
+: 1588098010:0;strings 251860 | less
+: 1588098023:0;ls
+: 1588098026:0;strings 83c17 | less
+: 1588098038:0;file *
+: 1588098045:0;ls
+: 1588098046:0;cd ../
+: 1588098046:0;ls
+: 1588098053:0;cd ../
+: 1588098053:0;ls
+: 1588098056:0;cd Android_bootimg
+: 1588098056:0;ls
+: 1588098059:0;file 24B3C.lzo
+: 1588098064:0;lzop -e 24B3C.lzo
+: 1588098067:0;lzop -x 24B3C.lzo
+: 1588098070:0;binwalk 24B3C.lzo
+: 1588098077:0;binwalk -e 24B3C.lzo
+: 1588098078:0;s
+: 1588098079:0;ls
+: 1588098080:0;cd _24B3C.lzo.extracted
+: 1588098080:0;ls
+: 1588098082:0;cd ../
+: 1588098083:0;rm _24B3C.lzo.extracted
+: 1588098087:0;binwalk --dd=".*" -e ./*
+: 1588098088:0;ls
+: 1588098089:0;cd _24B3C.lzo
+: 1588098091:0;ls
+: 1588098092:0;cd _24B3C.lzo-0.extracted
+: 1588098093:0;ls
+: 1588098095:0;file 874
+: 1588098100:0;xxd 874
+: 1588098103:0;xxd 874 | less
+: 1588098111:0;binwalk 874
+: 1588098117:0;strings 874| less
+: 1588098141:0;ls
+: 1588098141:0;cd ../
+: 1588098142:0;ls
+: 1588098142:0;cd ../
+: 1588098143:0;ls
+: 1588098148:0;file *
+: 1588098150:0;ls -lah
+: 1588098157:0;xxd packet_1.raw
+: 1588098164:0;xxd packet_7.raw
+: 1588098166:0;xxd packet_7.raw | less
+: 1588098168:0;clear
+: 1588098169:0;ls
+: 1588098180:0;strings packet_10.raw | grep "root"
+: 1588098184:0;strings packet_10.raw | less
+: 1588098186:0;ls
+: 1588098188:0;cd ../
+: 1588098190:0;cd spi_packet_dump
+: 1588098190:0;ls
+: 1588098191:0;cd data
+: 1588098192:0;ls
+: 1588098195:0;cd elfs
+: 1588098195:0;ls
+: 1588098201:0;file ../*
+: 1588098204:0;file ../*/*
+: 1588278209:0;ls
+: 1588278210:0;clear
+: 1588278210:0;ls
+: 1588278227:0;0;115;20M0;115;20m0;115;20M0;115;20m0;115;20M0;115;20m0;115;20M0;115;20m0;115;20M0;115;20m0;115;20M0;115;20m
+: 1588278229:0;reset
+: 1588278233:0;ls
+: 1588278262:0;mv spi_packet_dump SPI_FLASH_DUMP
+: 1588278262:0;ls
+: 1588278275:0;mv 500mhz_sample.logicdata SPI_FLASH_DUMP
+: 1588278276:0;ls
+: 1588278280:0;vim spi_parse.py
+: 1588278525:0;ls
+: 1588278527:0;clear
+: 1588278528:0;ls
+: 1588278532:0;cd wyze_cam.rep
+: 1588278532:0;ls
+: 1588278533:0;cd ../
+: 1588278535:0;cd Desktop
+: 1588278535:0;ls
+: 1588278536:0;cd wyze_cam
+: 1588278536:0;ls
+: 1588278544:0;mv spi_parse.py SPI_FLASH_DUMP
+: 1588278546:0;cd SPI_FLASH_DUMP
+: 1588278575:0;mv spi_parse.py flash_extract.py
+: 1588278575:0;ls
+: 1588278577:0;vim flash_extract.py
+: 1588278582:0;mv ../spi.txt ./
+: 1588278605:0;mv spi.txt spi_dump.txt
+: 1588278606:0;ls
+: 1588278608:0;vim flash_extract.py
+: 1588278687:0;ls
+: 1588278692:0;mkdir packets
+: 1588278755:0;mv packets data_dump
+: 1588278755:0;ls
+: 1588278772:0;mv data_dump extracted_data
+: 1588278772:0;ls
+: 1588278779:0;mv *.raw extracted_data
+: 1588278780:0;ls
+: 1588278798:0;mv flash_extract.py extract_flash.py
+: 1588278799:0;ls
+: 1588278806:0;cd data
+: 1588278807:0;ls
+: 1588278808:0;cd ../
+: 1588278810:0;ls
+: 1588278814:0;rm -rf data
+: 1588278815:0;ls
+: 1588278820:0;file 500mhz_sample.logicdata
+: 1588278822:0;ls -lah
+: 1588278824:0;ls
+: 1588278875:0;mv 500mhz_sample.logicdata spi_flash_sample.logicdata
+: 1588278875:0;ls
+: 1588278900:0;mv spi_flash_sample.logicdata flash_recording.logicdata
+: 1588278900:0;ls
+: 1588278920:0;mv spi_dump.txt spi_flash_dump.txt
+: 1588278920:0;ls
+: 1588278933:0;mv extracted_data spi_flash_extracted_data
+: 1588278934:0;ls
+: 1588278937:0;cd ../
+: 1588278937:0;ls
+: 1588278944:0;rm *.txt
+: 1588278944:0;ls
+: 1588278949:0;cd saleae-spi
+: 1588278949:0;ls
+: 1588278954:0;cd ../
+: 1588278957:0;rm -rf saleae-spi
+: 1588278958:0;ls
+: 1588278966:0;mv SPI_FLASH_DUMP spi_flash_dump
+: 1588278966:0;ls
+: 1588278968:0;file ou.bin
+: 1588278969:0;rm ou.bin
+: 1588278969:0;ls
+: 1588278978:0;mv spi_flash_dump spi_flash
+: 1588278978:0;ls
+: 1588278981:0;cd spi_flash
+: 1588278981:0;ls
+: 1588278984:0;mv flash_recording.logicdata ../
+: 1588278984:0;ls
+: 1588278993:0;cd ../
+: 1588278993:0;ls
+: 1588279001:0;ls -lah
+: 1588279004:0;rm flash_rip.logicdata
+: 1588279005:0;ls
+: 1588279011:0;mv flash_recording.logicdata spi_flash
+: 1588279016:0;mv flash_datasheet.pdf spi_flash
+: 1588279017:0;ls
+: 1588279018:0;cd spi_flash
+: 1588279018:0;ls
+: 1588279028:0;cd spi_flash_extracted_data
+: 1588279029:0;ls
+: 1588279030:0;mkdir packets
+: 1588279033:0;mv *.raw packets
+: 1588279034:0;ls
+: 1588279034:0;cd ../
+: 1588279035:0;ls
+: 1588279041:0;rm -rf Android_bootimg
+: 1588279041:0;ls
+: 1588279042:0;cd ../
+: 1588279043:0;tree
+: 1588279052:0;ls
+: 1588279055:0;rm -rf old_binwalk
+: 1588279055:0;ls
+: 1588279062:0;cd ../
+: 1588279062:0;ls
+: 1588279067:0;mv wyze_cam wyze_came_re
+: 1588279074:0;mv wyze_cam_re share
+: 1588279083:0;ls
+: 1588279098:0;mv wyze_came_re/ wyze_cam_re
+: 1588279098:0;ls
+: 1588279104:0;mv wyze_cam_re/ share
+: 1588279105:0;cd share
+: 1588279112:0;mv ../wyze_cam_re.txt ./wyze_cam_re
+: 1588279112:0;ls
+: 1588279114:0;cd wyze_cam_re
+: 1588279114:0;ls
+: 1588279116:0;mkdir docs
+: 1588279122:0;mv wyze_cam_re.txt docs
+: 1588279122:0;ls
+: 1588279124:0;cd spi_flash
+: 1588279125:0;ls
+: 1588279132:0;mv flash_datasheet.pdf ../docs
+: 1588279132:0;ls
+: 1588279136:0;vim extract_flash.py
+: 1588279157:0;ls
+: 1588279160:0;vim extract_flash.py
+: 1588279340:0;clear
+: 1588279341:0;ls
+: 1588279341:0;cd ../
+: 1588279341:0;ls
+: 1588281208:0;cd docs
+: 1588281222:0;mv ~/Downloads/GetApplicationAttachment.html ./int_photos.pdf
+: 1588281232:0;mv int_photos.pdf ext_photos.pdf
+: 1588281233:0;file ext_photos.pdf
+: 1588281285:0;mv ~/Downloads/GetApplicationAttachment.html ./int_photos.pdf
+: 1588281325:0;mv ~/Downloads/GetApplicationAttachment.html ./fcc_test_report.pdf
+: 1588281364:0;mv int_photos.pdf fcc_report_interior_photos.pdf
+: 1588281398:0;mv ~/Downloads/T20_PB.PDF ./Ingenic_T20_datasheet.pdf
+: 1588281461:0;mv ~/Downloads/JZ4760B_DS.PDF ./
+: 1588286862:0;ls /dev 
+: 1588286865:0;ls /dev | grep tty
+: 1588286869:0;ls /dev | grep tty.usb
+: 1588286882:0;screen /dev/tty.usbserial-A6024AT0 115200
+: 1588290447:0;cd Desktop
+: 1588290449:0;cd wy
+: 1588290450:0;ls
+: 1588290459:0;cd share/wyze_cam_re
+: 1588290459:0;ls
+: 1588290462:0;cd firmware
+: 1588290463:0;ls
+: 1588290476:0;mv demo.bin firmware_4.9.4.37.bin
+: 1588290560:0;file firmware_4.9.4.37.bin
+: 1588290564:0;ls
+: 1588290589:0;mkimage -l firmware_4.9.4.37.bin
+: 1588290628:0;brew install u-boot-tools
+: 1588290673:0;mkimage -l
+: 1588290676:0;mkimage -l firmware_4.9.4.37.bin
+: 1588290693:0;mkimage -h
+: 1588290765:0;ls
+: 1588290767:0;dumpimage
+: 1588290771:0;dumpimage -l firmware_4.9.4.37.bin
+: 1588290900:0;dumpimage -h
+: 1588291023:0;ls
+: 1588291027:0;binwalk -e firmware_4.9.4.37.bin
+: 1588291044:0;brew install jefferson
+: 1588291073:0;ls
+: 1588291080:0;cd Downloads
+: 1588291081:0;ls
+: 1588291084:0;git clone https://github.com/sviehb/jefferson
+: 1588291089:0;cd jefferson
+: 1588291092:0;python setup.py install
+: 1588291097:0;sudo -E -H python setup.py install
+: 1588291109:0;ls
+: 1588291112:0;rm -rf _firmware_4.9.4.37.bin.extracted
+: 1588291114:0;binwalk -e firmware_4.9.4.37.bin
+: 1588291157:0;brew install squashfs
+: 1588291223:0;git clone https://github.com/devttys0/sasquat
+: 1588291225:0;cd ../
+: 1588291227:0;git clone https://github.com/devttys0/sasquatch
+: 1588291230:0;cd sasquatch
+: 1588291232:0;./build.sh
+: 1588291261:0;rm _firmware_4.9.4.37.bin.extracted
+: 1588291263:0;binwalk -e firmware_4.9.4.37.bin
+: 1588291280:0;ls
+: 1588291284:0;cd _firmware_4.9.4.37.bin-0.extracted
+: 1588291284:0;ls
+: 1588291286:0;cd ../
+: 1588291287:0;ls
+: 1588291292:0;rm -rf _firmware_4.9.4.37.bin*
+: 1588291294:0;ls
+: 1588291298:0;binwalk firmware_4.9.4.37.bin
+: 1588291420:0;dumpimage -l
+: 1588291433:0;dumpimage -o dump firmware_4.9.4.37.bin
+: 1588291435:0;ls
+: 1588291437:0;file dump
+: 1588291441:0;ls -lah
+: 1588291445:0;md5 dump
+: 1588291447:0;md5 firmware_4.9.4.37.bin
+: 1588291455:0;dumpimage 
+: 1588291461:0;dumpimage -l dump
+: 1588291473:0;file dump
+: 1588291477:0;file firmware_4.9.4.37.bin
+: 1588291546:0;ls
+: 1588291548:0;binwalk dump
+: 1588291569:0;rm dump
+: 1588291571:0;binwalk -e firmware_4.9.4.37.bin
+: 1588292165:0;ls
+: 1588356387:0;cd ../
+: 1588356389:0;cd soruce
+: 1588356390:0;cd source
+: 1588356390:0;ls
+: 1588356392:0;cd uboot
+: 1588356392:0;ls
+: 1588356394:0;git status
+: 1588356408:0;ls -lah
+: 1588356411:0;vim boards.cfg
+: 1588357918:0;ls
+: 1588357927:0;ls /dev | grep ttyusb
+: 1588357930:0;ls /dev | grep usb
+: 1588357938:0;file /dev/cu.usbserial-A6024AT0
+: 1588357953:0;screen /dev/tty.usbserial-A6024AT0 115200
+: 1588358708:0;ls
+: 1588358710:0;cd ..
+: 1588358710:0;cd 
+: 1588358712:0;cd Desktop
+: 1588358716:0;cd share/wyze_cam_re
+: 1588358716:0;ls
+: 1588358721:0;cd firmware
+: 1588358721:0;ls
+: 1588358724:0;file firmware_4.9.4.37.bin
+: 1588358731:0;mkimage -l firmware_4.9.4.37.bin
+: 1588358829:0;ls
+: 1588358838:0;exit
+: 1588361822:0;cd ~/Downloads
+: 1588361822:0;ls
+: 1588361823:0;nc
+: 1588361836:0;ifconfig
+: 1588361878:0;telnet
+: 1588361882:0;brew install telnet
+: 1588361937:0;telnet 192.168.1.180 4321
+: 1588361957:0;telnet 192.168.1.180:4321
+: 1588361959:0;telnet
+: 1588361963:0;telnet -h
+: 1588361970:0;telnet 192.168.1.180 4321
+: 1588361984:0;nmap -p 192.168.1/24
+: 1588361988:0;brew install nmap
+: 1588362091:0;ifconfig
+: 1588362096:0;cat "A"
+: 1588362103:0;echo "AAAAAAA | nc -l 4321
+: 1588362106:0;echo "AAAA" 
+: 1588362111:0;echo "AAAA" | nc -l 4321
+: 1588362734:0;nmap
+: 1588362780:0;nmap -sl 192.168.0/16
+: 1588362790:0;nmap -sl 192.168.0/24
+: 1588362793:0;nmap -sl 192.168.1/24
+: 1588362835:0;nmap -sL 192.168.0/24
+: 1588362840:0;nmap -sL 192.168.1/24
+: 1588362845:0;nmap -sL 192.168.1/16
+: 1588362869:0;ping 192.168.1.255
+: 1588362873:0;ping 192.168.0.1
+: 1588362877:0;ifconfig | less
+: 1588362931:0;nmap -sn 192.168.1.0/24
+: 1588362960:0;man nmap
+: 1588362982:0;nmap -sn 192.168.2.0/24
+: 1588362992:0;nmap -sn 192.168.1.0/24
+: 1588363017:0;telnet 192.168.1.180
+: 1588363026:0;telnet 192.168.2.180
+: 1588363089:0;ls
+: 1588363097:0;echo "AAAA" | nc -l 4321
+: 1588363112:0;ls
+: 1588363114:0;ps
+: 1588363245:0;ifconfig
+: 1588364148:0;ls
+: 1588364178:0;man wget
+: 1588364658:0;nc -l 22
+: 1588364662:0;nc -l 23
+: 1588364667:0;nc -l 80
+: 1588364703:0;ifconfig
+: 1588364707:0;ifconfig | less
+: 1588364737:0;nc -l 80
+: 1588364763:0;ls
+: 1588365000:0;man screen
+: 1588365079:0;stty
+: 1588365091:0;ls /dev | grep tty
+: 1588365096:0;ls /dev | grep usb
+: 1588365112:0;stty -f /dev/tty.usbserial-A6024AT0
+: 1588365138:0;ps -ef | grep screen
+: 1588365146:0;ps | grep /dev/tty.usb
+: 1588365160:0;ps -ef 
+: 1588365167:0;pkill screen
+: 1588365171:0;ps -ef | grep screen
+: 1588365175:0;ps | grep /dev/tty.usb
+: 1588365185:0;kill 56826
+: 1588365187:0;ps | grep /dev/tty.usb
+: 1588365193:0;stty -f /dev/tty.usbserial-A6024AT0
+: 1588365206:0;stty 
+: 1588365208:0;-h
+: 1588365212:0;stty --help
+: 1588365219:0;man stty
+: 1588365287:0;ls /dev | grep tty.usb
+: 1588365405:0;ls /dev
+: 1588365417:0;history | grep screen
+: 1588365425:0;screen /dev/tty.usbserial-A6024AT0 115200
+: 1588365691:0;stty -F /dev/tty.usbserial-A6024AT0 wput
+: 1588365693:0;wput
+: 1588365696:0;brew install wput
+: 1588365715:0;cd dDow
+: 1588365715:0;ls
+: 1588365716:0;cd Downloads
+: 1588365717:0;ls
+: 1588365718:0;ls | grep nc
+: 1588365721:0;file netcat
+: 1588365727:0;wput netcat
+: 1588365729:0;wput --help
+: 1588365785:0;man wput
+: 1588365849:0;ls
+: 1588365914:0;python -m SimpleHTTPServer
+: 1588365956:0;ifconfig
+: 1588365978:0;ls
+: 1588365981:0;cd /Dow
+: 1588365983:0;cd Downloads
+: 1588365983:0;ls
+: 1588365984:0;mkdir foo
+: 1588365985:0;ls
+: 1588365988:0;cd foo
+: 1588365991:0;cp ../netcat ./
+: 1588365992:0;ls
+: 1588365999:0;cd foo
+: 1588366001:0;python -m SimpleHTTPServer
+: 1588366027:0;ls
+: 1588366032:0;ls -lah
+: 1588366047:0;python -m SimpleHTTPServer
+: 1588366123:0;netstat -tulpn
+: 1588366126:0;net stat-tulp
+: 1588366130:0;netstat -tulp
+: 1588366132:0;netstat -tuln
+: 1588366134:0;netstat
+: 1588366141:0;netstat -h
+: 1588366145:0;netstat
+: 1588366149:0;netstat -t
+: 1588366152:0;netstat -u
+: 1588366157:0;netstat -u | grep python
+: 1588366164:0;netstat -u | grep 8000
+: 1588366168:0;netstat | grep 8000
+: 1588366196:0;netstat -a
+: 1588366217:0;ifconfig
+: 1588366219:0;ifconfig | less
+: 1588366249:0;netstat -I en0
+: 1588366257:0;netstat -aI en0
+: 1588366343:0;nc 192.168.1.180:23306
+: 1588366345:0;nc 192.168.1.180 23306
+: 1588366386:0;wget 192.168.1.146:8000
+: 1588366596:0;ifconfig
+: 1588366615:0;python -m SimpleHTTPServer
+: 1588366744:0;nmap -p 8000 192.168.1.0/24
+: 1588366751:0;nmap -p 8000 192.168.2.0/24
+: 1588366756:0;nmap -sn 8000 192.168.2.0/24
+: 1588366765:0;nmap -sn 192.168.2.0/24
+: 1588366768:0;nmap -sn 192.168.1.0/24
+: 1588366802:0;nmap -p 8000 192.168.1.0/24
+: 1588366861:0;nmap -p 8000 192.168.1.146
+: 1588366867:0;ifconfig
+: 1588366906:0;nmap -p 8000 192.168.1.0/24
+: 1588367076:0;ls
+: 1588367371:0;cd 
+: 1588367372:0;ls
+: 1588367373:0;cd Desktop
+: 1588367373:0;ls
+: 1588367374:0;cd share
+: 1588367374:0;ls
+: 1588367379:0;cd wyze_cam_re
+: 1588367379:0;ls
+: 1588367381:0;cd spi_flash
+: 1588367381:0;ls
+: 1588367382:0;cd ../
+: 1588367382:0;ls
+: 1588367383:0;cd firmware
+: 1588367383:0;ls
+: 1588367385:0;cd _firmware_4.9.4.37.bin.extracted
+: 1588367385:0;ls
+: 1588367389:0;file * | grep ELF
+: 1588367394:0;rm *.zlib
+: 1588367399:0;rm *.jffs2
+: 1588367399:0;ls
+: 1588367404:0;file * 
+: 1588367476:0;file * | grep ELF
+: 1588368688:0;screen /dev/tty.usbserial-A6024AT0 115200
+: 1588369554:0;ifconfig
+: 1588369574:0;cd ../
+: 1588369574:0;ls
+: 1588369575:0;cd ../
+: 1588369575:0;ls
+: 1588369644:0;mkdir binaries
+: 1588369645:0;ls
+: 1588369647:0;cd binaries
+: 1588369694:0;nc -l 4321 > test_UP 
+: 1588369744:0;cd Desktop/
+: 1588369747:0;cd share/wyze_cam_re
+: 1588369748:0;ls
+: 1588369749:0;cd binaries
+: 1588369749:0;ls
+: 1588369750:0;ls -la
+: 1588369763:0;nc -l 4321
+: 1588369819:0;nc 192.168.1.180 4321
+: 1588369820:0;a
+: 1588369859:0;exit
+: 1588370136:0;ps -ef | grep screen
+: 1588370139:0;ps -ef | grep tty.usb
+: 1588370145:0;kill 2151
+: 1588370155:0;screen /dev/tty.usbserial-A6024AT0 115200
+: 1589409975:0;file test_UP
+: 1589409976:0;ls
+: 1589409977:0;ls -lah
+: 1589409993:0;ifconfig
+: 1589409996:0;rls
+: 1589409998:0;ls
+: 1589410006:0;nc -l 4321 > test_UP
+: 1589410040:0;nc -l 4321
+: 1589411512:0;ls
+: 1589411517:0;mv ~/Downloads/hl_client ./
+: 1589411521:0;mv ~/Downloads/iCamera ./
+: 1589411521:0;ls
+: 1589411533:0;launched_at_startup
+: 1589411533:0;ls
+: 1589411538:0;mkdir launched_at_startup
+: 1589411540:0;mv * launched_at_startup
+: 1589411540:0;ls
+: 1589411544:0;ls launched_at_startup
+: 1589411706:0;git status
+: 1589411991:0;ls
+: 1589412008:0;mv ~/Downloads/bin.tar.gz ./
+: 1589412009:0;ls
+: 1589412013:0;tar -xvf bin.tar.gz
+: 1589412015:0;ls
+: 1589412020:0;cd system
+: 1589412020:0;ls
+: 1589412022:0;mv bin ../
+: 1589412022:0;ls
+: 1589412023:0;cd ../
+: 1589412025:0;rmdir system
+: 1589412025:0;ls
+: 1589412028:0;rm bin.tar.gz
+: 1589412029:0;ls
+: 1589412030:0;cd bin
+: 1589412031:0;ls
+: 1589412033:0;cd ../
+: 1589412170:0;ls
+: 1589412173:0;mv ~/Downloads/app_init.sh ./
+: 1589412173:0;ls
+: 1589412178:0;mv app_init.sh launched_at_startup
+: 1589412179:0;cd launched_at_startup
+: 1589412180:0;ls
+: 1589412181:0;cd ../
+: 1589412182:0;tmux
+: 1589412199:0;exit
+: 1589412201:0;tmux
+: 1589412205:0;cd launched_at_startup
+: 1589412206:0;ls
+: 1589412211:0;vim app_init.sh
+: 1589412463:0;ls
+: 1589412468:0;cd ../
+: 1589412469:0;ls
+: 1589412473:0;mv binaries filesystem
+: 1589412476:0;cd fi
+: 1589412478:0;cd filesystem
+: 1589412479:0;ls
+: 1589412482:0;mv launched_at_startup/ ../
+: 1589412482:0;ls
+: 1589412489:0;ln -s ../launched_at_startup launched_at_startup/
+: 1589412489:0;ls
+: 1589412499:0;ln -s launched_at_startup/ ../launched_at_startup/
+: 1589412500:0;ls
+: 1589412502:0;cd ../
+: 1589412503:0;ls
+: 1589412504:0;cd launched_at_startup
+: 1589412505:0;ls -la
+: 1589412516:0;mv launched_at_startup ../filesystem
+: 1589412516:0;cd ../
+: 1589412517:0;cd fi
+: 1589412517:0;ls
+: 1589412520:0;cd filesystem
+: 1589412520:0;ls
+: 1589412521:0;cd lau
+: 1589412522:0;ls
+: 1589412526:0;ls -lah
+: 1589412535:0;ln -s launched_at_startup/ ../launched_at_startup
+: 1589412536:0;ls -lah
+: 1589412541:0;ln -s ../launched_at_startup launched_at_startup
+: 1589412542:0;ls -lah
+: 1589412544:0;rm launched_at_startup
+: 1589412546:0;ln -s ../launched_at_startup launched_at_startup
+: 1589412547:0;ls
+: 1589412549:0;ls -la
+: 1589412551:0;cd ../
+: 1589412552:0;cd launched_at_startup
+: 1589412553:0;ls
+: 1589412554:0;rm launched_at_startup
+: 1589412555:0;cd ../
+: 1589412555:0;ls
+: 1589412559:0;cd filesystem
+: 1589412559:0;ls
+: 1589412566:0;mv ~/Downloads/system.tar.gz ./
+: 1589412568:0;tar -xvf system.tar.gz
+: 1589412570:0;ls
+: 1589412571:0;cd system
+: 1589412572:0;ls
+: 1589412573:0;mv ./* ../
+: 1589412575:0;cd ../
+: 1589412576:0;rmdir system
+: 1589412577:0;ls
+: 1589412579:0;tar -xvf init.tar
+: 1589412582:0;tar -xvf etc.tar
+: 1589412587:0;tar -xvf lib.tar
+: 1589412592:0;tar -xvf media.tar
+: 1589412593:0;ls
+: 1589412595:0;cd system
+: 1589412595:0;ls
+: 1589412598:0;mv ./* ../
+: 1589412598:0;ls
+: 1589412599:0;cd ../
+: 1589412601:0;rmdir system
+: 1589412601:0;ls
+: 1589412604:0;rm system.tar.gz
+: 1589412606:0;rm *.tar
+: 1589412607:0;ls
+: 1589412609:0;ls -la
+: 1589412612:0;cd lib
+: 1589412612:0;ls
+: 1589412613:0;cd ../
+: 1589412614:0;ls
+: 1589412644:0;mkdir system
+: 1589412647:0;mv ./* system
+: 1589412649:0;ls
+: 1589412657:0;mv system/launched_at_startup ./
+: 1589412659:0;rm launched_at_startup
+: 1589412659:0;ls
+: 1589412771:0;mv ~/Downloads/lib.tar ./
+: 1589412773:0;tar -xvf lib.tar
+: 1589412775:0;ls
+: 1589412776:0;rm lib.tar
+: 1589412776:0;ls
+: 1589412779:0;cd lib/mod
+: 1589412780:0;ls
+: 1589412782:0;cd lib/modules
+: 1589412783:0;ls
+: 1589412785:0;cd lib
+: 1589412785:0;ls
+: 1589412788:0;cd modules
+: 1589412790:0;ls -lah
+: 1589412794:0;cd ../
+: 1589412795:0;ls
+: 1589412798:0;cd system/lib
+: 1589412799:0;ls
+: 1589412800:0;cd modules
+: 1589412988:0;cd ../../
+: 1589412988:0;ls
+: 1589412992:0;mv ~/Downloads/driver.tar.gz ./
+: 1589412993:0;ls
+: 1589412995:0;tar -xvf driver.tar.gz
+: 1589412996:0;ls
+: 1589413044:0;cd ../
+: 1589413045:0;ls
+: 1589413047:0;cd launched_at_startup
+: 1589413047:0;ls
+: 1589413063:0;cd Desktop/share/wyze_cam_re
+: 1589413063:0;ls
+: 1589413067:0;cd launched_at_startup
+: 1589413067:0;ls
+: 1589413068:0;cd ../
+: 1589413069:0;cd fi
+: 1589413070:0;ls
+: 1589413071:0;cd filesystem
+: 1589413072:0;ls
+: 1589413097:0;cd system/init
+: 1589413098:0;ls
+: 1589413102:0;rm app_init.sh
+: 1589413109:0;man ln
+: 1589413132:0;ln -s ../filesystem/system/init/app_init.sh ./app_init.sh
+: 1589413132:0;ls
+: 1589413136:0;vim app_init.sh
+: 1589413139:0;ls
+: 1589413142:0;cd ../
+: 1589413143:0;ls
+: 1589413149:0;cd etc
+: 1589413149:0;ls
+: 1589413150:0;cd app
+: 1589413151:0;ls
+: 1589413155:0;cd ../../
+: 1589413155:0;ls
+: 1589413272:0;mv ~/Downloads/etc.tar ./
+: 1589413275:0;tar -xvf etc.tar
+: 1589413277:0;ls
+: 1589413279:0;rm etc.tar
+: 1589413292:0;cd etc
+: 1589413293:0;ls
+: 1589413294:0;cd app
+: 1589413294:0;ls
+: 1589413297:0;ls -lah
+: 1589413307:0;ls
+: 1589413310:0;cd ../../
+: 1589413315:0;find ./ -name "hl_client"
+: 1589413319:0;cd system/bin
+: 1589413320:0;ls
+: 1589413323:0;file hl_client
+: 1589413326:0;file hl_clint
+: 1589413331:0;rm hl_client
+: 1589413341:0;ln -s ../filesystem/system/bin/hl_client ./hl_client
+: 1589413342:0;ls
+: 1589413346:0;ls | grep iCam
+: 1589413349:0;file iCamera 
+: 1589413351:0;rm iCamera
+: 1589413360:0;ln -s ../filesystem/system/bin/iCamera ./iCamera
+: 1589413360:0;ls
+: 1589413387:0;ls | grep test
+: 1589413390:0;rm test_UP
+: 1589413399:0;ln -s ../filesystem/system/bin/test_UP test_UP
+: 1589413400:0;ls
+: 1589413405:0;vim app_init.sh
+: 1589413432:0;ln -s ../filesystem/system/bin/singleBoadTest singleBoadTest
+: 1589413433:0;ls
+: 1589413445:0;cd ../
+: 1589413446:0;ls
+: 1589413448:0;tree fi
+: 1589413451:0;tree firmware
+: 1589413453:0;clear
+: 1589413454:0;ls
+: 1589413464:0;ls -la
+: 1589413465:0;cd ../../../
+: 1589413466:0;ls
+: 1589413468:0;cd launched_at_startup
+: 1589413468:0;ls
+: 1589413470:0;ls -lah
+: 1589413478:0;vim app_init.sh
+: 1589413483:0;mv filesystem fs
+: 1589413484:0;vim app_init.sh
+: 1589413488:0;rm .app_init.sh.swp
+: 1589413489:0;vim app_init.sh
+: 1589413494:0;mv fs filesystem
+: 1589413494:0;ls
+: 1589413497:0;vim app_init.sh
+: 1589413501:0;ls
+: 1589413512:0;cd spi_flash
+: 1589413513:0;ls
+: 1589413514:0;cd ../
+: 1589413519:0;mv spi_flash flash_dump
+: 1589413519:0;ls
+: 1589413523:0;cd firmware
+: 1589413523:0;ls
+: 1589413526:0;cd ../
+: 1589413526:0;ls
+: 1589413536:0;cd source
+: 1589413536:0;ls
+: 1589413538:0;cd ../
+: 1589413538:0;ls
+: 1589413552:0;mkdir public_resources
+: 1589413554:0;mv docs public_resources
+: 1589413556:0;mv source public_resources
+: 1589413556:0;ls
+: 1589413560:0;mv firmware public_resources
+: 1589413560:0;ls
+: 1589413575:0;mv launched_at_startup important_scripts_and_binaries
+: 1589413575:0;ls
+: 1589413578:0;cd public_resources/source
+: 1589413579:0;ls
+: 1589413580:0;cd ../../
+: 1589413581:0;ls
+: 1589413605:0;rm .spi.txt.swp
+: 1589413605:0;ls
+: 1589413607:0;ls -lah
+: 1589413613:0;ls
+: 1589414571:0;cd public_resources
+: 1589414572:0;ls
+: 1589414574:0;cd source
+: 1589414574:0;ls
+: 1589414576:0;cd uboot
+: 1589414577:0;ls
+: 1589414581:0;cat README
+: 1589414586:0;cat README| less
+: 1589414594:0;ls
+: 1589414598:0;grep -re ./ "version"
+: 1589414607:0;cd doc
+: 1589414607:0;ls
+: 1589414611:0;cd ../
+: 1589414615:0;find ./ -name "version"
+: 1589414619:0;find ./ -name "Version"
+: 1589414627:0;grep -re "version" ./
+: 1589414637:0;grep -re "uboot version" ./
+: 1589414642:0;ls
+: 1589414646:0;git status
+: 1589414649:0;vim 0001-boot-modifications-Add-Norflash-XT25F128A.patch
+: 1589414662:0;clear
+: 1589414662:0;ls
+: 1589414708:0;vim config.mk
+: 1589414735:0;grep -re "uboot version" ./
+: 1589414923:0;ls
+: 1589414924:0;cd ../
+: 1589414925:0;ls
+: 1589414926:0;cd ../
+: 1589414926:0;ls
+: 1589414929:0;cd important_scripts_and_binaries
+: 1589414929:0;ls
+: 1589414931:0;cat app_init.sh
+: 1589415010:0;ls
+: 1589415018:0;cat app_init.sh| grep hl_client
+: 1589415041:0;vim app_init.sh
+: 1589415047:0;ls
+: 1589415048:0;ls -lah
+: 1589562779:0;/Users/aa26678/Desktop/TOOLS/ghidra_dists/ghidra_9.1.1/ghidraRun ; exit;
+: 1589809474:0;cd Desktop/share
+: 1589809475:0;ls
+: 1589809476:0;cd wyze_cam_re
+: 1589809477:0;ls
+: 1589809492:0;cd ../
+: 1589809493:0;ls
+: 1589809508:0;tar -czvf wyze_cam_re.tar.gz wyze_cam_re
+: 1589809915:0;tar -czf wyze_cam_re.tar.gz wyze_cam_re
+: 1589809921:0;rm wyze_cam_re.tar.gz
+: 1589809923:0;tar -czf wyze_cam_re.tar.gz wyze_cam_re
+: 1589810127:0;file wyze_cam_re.tar.gz
+: 1589810131:0;ls -lah wyze_cam_re.tar.gz
+: 1589906922:0;cd
+: 1589906923:0;ls
+: 1589906925:0;cd Downloads
+: 1589906925:0;ls
+: 1589906929:0;cd 
+: 1589906930:0;cd .ghidra
+: 1589906930:0;ls
+: 1589906932:0;ls -la
+: 1589906945:0;cd .ghidra_9.1.1_PUBLIC
+: 1589906945:0;ls
+: 1589906971:0;/Users/aa26678/Desktop/TOOLS/ghidra_dists/ghidra_9.1.2_PUBLIC/ghidraRun ; exit;
+: 1589906993:0;ls
+: 1589906993:0;ls -la
+: 1589906995:0;cd ../
+: 1589906995:0;ls -la
+: 1589907001:0;cd .ghidra_9.1.
+: 1589907008:0;ls .ghidra_9.1.2_PUBLIC
+: 1589907015:0;tmux
+: 1589907021:0;cd .ghidra_9.1.1_PUBLIC/1
+: 1589907024:0;ls
+: 1589907029:0;cd .ghidra_9.1.1_PUBLIC
+: 1589907035:0;cd .ghidra_9.1.2_PUBLIC
+: 1589907036:0;ls
+: 1589907040:0;cd tools
+: 1589907042:0;ls
+: 1589907058:0;cp black_dragon.png ../../.ghidra_9.1.2_PUBLIC/tools
+: 1589907064:0;vim _code_browser_dark_light2.tcd
+: 1589907109:0;/Users/aa26678/Desktop/TOOLS/ghidra_dists/ghidra_9.1.2_PUBLIC/ghidraRun ; exit;
+: 1589907196:0;clear
+: 1589907198:0;exit
+: 1589907200:0;clear
+: 1589907200:0;ls
+: 1589907388:0;man malloc
+: 1589908558:0;python
+: 1589908849:0;man fwrite
+: 1589908909:0;python
+: 1589910994:0;man ftell
+: 1589911389:0;python
+: 1589911689:0;man msgrcv
+: 1589911905:0;python
+: 1589913040:0;man memcpy
+: 1589913073:0;python
+: 1589914775:0;man pthread_Create
+: 1590604913:0;python -v
+: 1590604918:0;which pythomn
+: 1590604920:0;which python
+: 1590604923:0;python3
+: 1590605188:0;/Users/aa26678/Desktop/TOOLS/ghidra_dists/ghidra_9.1.2_PUBLIC/ghidraRun ; exit;
+: 1590675608:0;profiles
+: 1590675611:0;profiles help
+: 1590675623:0;profiles list
+: 1590675628:0;profiles status
+: 1590675638:0;cd /profiles
+: 1590675648:0;profiles list -user=*
+: 1590675658:0;profiles -user=*
+: 1590675659:0;profiles -user=* list
+: 1590675669:0;profiles list
+: 1590675676:0;profiles show
+: 1590675684:0;profiles status
+: 1590675695:0;profiles -C
+: 1590675710:0;profiles -L
+: 1590675714:0;profiles -P
+: 1590675717:0;sudo su
+: 1590675888:0;exit
+: 1590675967:0;/Users/aa26678/Desktop/TOOLS/ghidra_dists/ghidra_9.1.2_PUBLIC/ghidraRun ; exit;
+: 1590676392:0;man scandir
+: 1590676912:0;man pthread_create
+: 1590678683:0;man ftok
+: 1590678724:0;man msgget
+: 1590686081:0;man pthread_mutex_t
+: 1590766620:0;ls /dev
+: 1590766642:0;cd /med
+: 1590766643:0;cd /
+: 1590766643:0;ls
+: 1590766648:0;cd Volumes
+: 1590766648:0;ls
+: 1590766650:0;cd ../
+: 1590766651:0;ls
+: 1590767213:0;mkdir foo
+: 1590767219:0;sudo mount /dev/rdisk2s2 foo
+: 1590767229:0;sudo mount -t exfat /dev/rdisk2s2 foo
+: 1590767235:0;file /dev/rdisk2s2
+: 1590767239:0;ls /dev | grep rdisk
+: 1590767243:0;file /dev/rdisk0
+: 1590767244:0;mount -l
+: 1590767247:0;mount -list
+: 1590767250:0;mount -h
+: 1590767253:0;man mount
+: 1590767260:0;mount -o list
+: 1590767266:0;ls /dev | grep disk
+: 1590767281:0;mount -t /dev/rdisk0 foo
+: 1590767285:0;mount -t exfat /dev/rdisk0 foo
+: 1590767292:0;mount -t exfat /dev/rdisk1 foo
+: 1590767295:0;mount -t exfat /dev/rdisk2 foo
+: 1590767299:0;file /dev/rdisk*
+: 1590767305:0;file /dev/sr0
+: 1590767315:0;file /dev/* | grep block"
+: 1590767316:0;file /dev/* | grep block
+: 1590767344:0;fsck_exfat -y -x /dev/rdisk2s2
+: 1590767347:0;sudo fsck_exfat -y -x /dev/rdisk2s2
+: 1590767375:0;ps -ef | grep rdisk2
+: 1590767391:0;pkill 13184
+: 1590767393:0;kill 13184
+: 1590767397:0;sudo kill 13184
+: 1590767401:0;ps -ef | grep rdisk2
+: 1590767403:0;sudo fsck_exfat -y -x /dev/rdisk2s2
+: 1590767434:0;man fsck_exfat
+: 1590767455:0;sudo fsck_exfat -y /dev/rdisk2s2
+: 1590767462:0;sudo fsck_exfat -y /dev/rdisk2
+: 1590767467:0;sudo fsck_exfat -y /dev/rdisk2s1
+: 1590767469:0;sudo fsck_exfat -y /dev/rdisk2s0
+: 1590767472:0;sudo fsck_exfat -y /dev/rdisk2s2
+: 1590767476:0;ps | grep rdisk2s2
+: 1590767479:0;sudo fsck_exfat -y /dev/rdisk2s2
+: 1590767483:0;ps | grep rdisk2
+: 1590767488:0;ps -ef | grep rdisk2
+: 1590767494:0;kill 13694
+: 1590767497:0;sudo kill 13694
+: 1590767504:0;sudo fsck_exfat -y /dev/rdisk2s2
+: 1590767574:0;mount_exfat
+: 1590767578:0;man mount_exfat
+: 1590767640:0;sudo mount_exfat /dev/rdisk2s2 ./foo
+: 1590767658:0;ls /dev | grep rdisk2
+: 1590767662:0;ls /dev | grep rdisk
+: 1590767670:0;file /dev/rdisk*
+: 1590767675:0;file /dev/* | grep block
+: 1590767681:0;lsmount
+: 1590767696:0;mount -o list
+: 1590767707:0;cd /Volumes/STUFF
+: 1590767708:0;ls
+: 1590767712:0;cd ../
+: 1590767724:0;exfat_umount /Volumes/STUFF
+: 1590767729:0;umount /Volumes/STUFF
+: 1590767740:0;ps | grep rdisk2
+: 1590767745:0;ps -ef | grep rdisk2
+: 1590767750:0;sudo umount /Volumes/STUFF
+: 1590767757:0;sudo diskutil unmount /Volumes/STUFF
+: 1590767775:0;mount_exfat
+: 1590767789:0;sudo mount_exfat /dev/disk2s2 ~/foo/
+: 1590767793:0;cd foo
+: 1590767794:0;ls
+: 1590767802:0;cd ../
+: 1590767804:0;ls -lah foo
+: 1590767813:0;ls -lah ./ | grep foo
+: 1590767816:0;cd foo
+: 1590767817:0;ls
+: 1590767831:0;sudo diskutil unmount ~/foo/
+: 1590767840:0;diskutil unmount ~/foo/
+: 1590767876:0;cd foo
+: 1590767877:0;ls
+: 1590767878:0;cd ../
+: 1590767896:0;ps -ef | grep disk2
+: 1590767898:0;ps -ef | grep disk
+: 1591024045:0;/Users/aa26678/Desktop/TOOLS/ghidra_dists/ghidra_9.1.2_PUBLIC/ghidraRun ; exit;
+: 1591031958:0;ls
+: 1591031963:0;ls /dev | grep usb
+: 1591031978:0;screen /dev/tty.usbserial-A6024AT0 115200
+: 1591032721:0;base64 -d dH4wSw4CabVhOGCI
+: 1591032726:0;base64 -D dH4wSw4CabVhOGCI
+: 1591032733:0;base64 -D -i dH4wSw4CabVhOGCI
+: 1591032738:0;base64 -D -i -
+: 1591035118:0;exit
+: 1591038028:0;man popen
+: 1591038063:0;man tcgetattr
+: 1591038350:0;clear
+: 1591038403:0;ls /dev | grep tty
+: 1591038407:0;ls /dev | grep usb.
+: 1591038433:0;screen /dev/tty.usbserial-A6024AT0 115200
+: 1591041510:0;0x64 - 0x3c
+: 1591041511:0;python
+: 1591042149:0;man 2 remove
+: 1591042150:0;man remove
+: 1591042176:0;man fwrite
+: 1591042724:0;ifconfig
+: 1591042729:0;man ifconfig
+: 1591043305:0;python
+: 1591109466:0;/Users/aa26678/Desktop/TOOLS/ghidra_dists/ghidra_9.1.2_PUBLIC/ghidraRun ; exit;
+: 1591110194:0;pthread_attr_getstacksizew
+: 1591110196:0;pthread_attr_getstacksize
+: 1591110200:0;man pthread_attr_getstacksize
+: 1591110733:0;man pthread_create
+: 1591200487:0;/Users/aa26678/Desktop/TOOLS/ghidra_dists/ghidra_9.1.2_PUBLIC/ghidraRun ; exit;
+: 1591209159:0;screen /dev/tty.usbserial-A6024AT0 115200
+: 1591210002:0;man socket
+: 1591210103:0;man listen
+: 1591210279:0;ps | grep tty.
+: 1591210289:0;kill 12659
+: 1591210294:0;screen /dev/tty.usbserial-A6024AT0 115200
+: 1591212627:0;ps | grep screen
+: 1591212632:0;screen /dev/tty.usbserial-A6024AT0 115200
+: 1591212644:0;ls /dev | grep tty.
+: 1591212646:0;ls /dev | grep tty.usb
+: 1591212647:0;clear
+: 1591212650:0;ls /dev | grep ttys.usb
+: 1591212652:0;ls /dev | grep usb
+: 1591212688:0;screen /dev/tty.usbserial-A6024AT0 115200
+: 1591213051:0;cd Desktop
+: 1591213052:0;cd share
+: 1591213052:0;ls
+: 1591213054:0;cd wyze_cam_re
+: 1591213054:0;ls
+: 1591213056:0;cd filesystem
+: 1591213056:0;ls
+: 1591213057:0;cd lib
+: 1591213058:0;ls
+: 1591213076:0;grep -re ./ "strlen(TCP_REQUEST_HEAD) != retval"
+: 1591213080:0;grep -re "strlen(TCP_REQUEST_HEAD) != retval" ./
+: 1591213082:0;ls
+: 1591213089:0;cd ../
+: 1591213089:0;ls
+: 1591213092:0;cd system
+: 1591213092:0;ls
+: 1591213093:0;cd lib
+: 1591213093:0;ls
+: 1591213097:0;grep -re "strlen(TCP_REQUEST_HEAD) != retval" ./
+: 1591213100:0;s
+: 1591213101:0;ls
+: 1591213421:0;man recv
+: 1591213824:0;man inet_addr
+: 1591213922:0;man select
+: 1591213935:0;man accept
+: 1591213939:0;man 2 accept
+: 1591214474:0;man shutdown
+: 1591214477:0;man 2 shutdown
+: 1591214483:0;man 2 close
+: 1591214586:0;ls
+: 1591214590:0;strace
+: 1591215997:0;man setsockopt
+: 1591216027:0;man 2 bind
+: 1591216105:0;man select
+: 1591216329:0;man time
+: 1591216332:0;man 2 time
+: 1591216398:0;man 2 bind
+: 1591216404:0;man 2 select
+: 1591216468:0;python
+: 1591216591:0;man 2 selec
+: 1591216593:0;man 2 select
+: 1591216637:0;man setsockopt
+: 1591216689:0;python
+: 1591217503:0;man echo
+: 1591217823:0;ps -ef | grep screen
+: 1591217828:0;kill -9 17259
+: 1591217833:0;clear
+: 1591217835:0;\
+
+: 1591217836:0;reset
+: 1591217862:0;screen /dev/tty.usbserial-A6024AT0 115200
+: 1591217869:0;ls
+: 1591217873:0;ps | grep usb.tty
+: 1591217877:0;ps -ef | grep usb.tty
+: 1591217891:0;screen /dev/tty.usbserial-A6024AT0 115200
+: 1591217909:0;ls /dev | grep tty.usb
+: 1591217952:0;python
+: 1591219478:0;man 2 send
+: 1591219598:0;ls
+: 1591220288:0;man fwrite
+: 1591221952:0;hex
+: 1591221954:0;python
+: 1591285576:0;ls /dev | grep /dev/tty.
+: 1591285580:0;ls /dev | grep usb
+: 1591285587:0;screen /dev/tty.usbserial-A6024AT0 115200
+: 1591286725:0;/Users/aa26678/Desktop/TOOLS/ghidra_dists/ghidra_9.1.2_PUBLIC/ghidraRun ; exit;
+: 1591288000:0;python
+: 1591364005:0;/Users/aa26678/Desktop/TOOLS/ghidra_dists/ghidra_9.1.2_PUBLIC/ghidraRun ; exit;
+: 1591364081:0;ls
+: 1591364084:0;cd ../../../
+: 1591364085:0;ls
+: 1591364099:0;cd ../
+: 1591364099:0;ls
+: 1591364107:0;tar -czf wyze_cam_re
+: 1591364112:0;tar -czf wyze_cam_re.tar.gz wyze_cam_re/
+: 1591364172:0;cd Desktop/share
+: 1591364173:0;ls
+: 1591364182:0;ls -lah | grep wyze_cam_re
+: 1591365136:0;file wyze_cam_re.tar.gz
+: 1591365320:0;ls -lah ./ | grep foo
+: 1591365323:0;ls -lah ./ | grep wyze
+: 1591802295:0;/Users/aa26678/Desktop/TOOLS/ghidra_dists/ghidra_9.1.2_PUBLIC/ghidraRun ; exit;
+: 1591804119:0;python
+: 1591886126:0;man scandir
+: 1591888091:0;cd Desktop
+: 1591888092:0;cd share
+: 1591888092:0;cd wyze_cam_re
+: 1591888094:0;os
+: 1591888094:0;ls
+: 1591888118:0;rm IPC_notes.md
+: 1591888118:0;ls
+: 1591888136:0;cd public_resources
+: 1591888136:0;ls
+: 1591888139:0;cd ..
+: 1591888140:0;ls -lah
+: 1591888145:0;cd public_resources
+: 1591888146:0;ls
+: 1591888147:0;cd source
+: 1591888148:0;ls
+: 1591888148:0;cd ../
+: 1591888149:0;ls -lah
+: 1591888152:0;cd firmware
+: 1591888152:0;ls
+: 1591888153:0;ls -lah
+: 1591888157:0;cd ../
+: 1591888159:0;ls
+: 1591888193:0;cd ../
+: 1591888193:0;ls
+: 1591888207:0;mkdir June_Export
+: 1591888211:0;cp -r filesystem June_Export
+: 1591888219:0;cd June_Export
+: 1591888219:0;ls
+: 1591888220:0;cd filesystem
+: 1591888221:0;ls
+: 1591888221:0;tree
+: 1591888228:0;cd system
+: 1591888229:0;cd bin
+: 1591888229:0;ls
+: 1591888235:0;rm test_UP.idb
+: 1591888238:0;file test_UP
+: 1591888239:0;ls -lah
+: 1591888241:0;cd ../../
+: 1591888241:0;ls
+: 1591888242:0;cd ../
+: 1591888243:0;ls
+: 1591888245:0;cd ../
+: 1591888245:0;ls
+: 1591888267:0;/Users/aa26678/Desktop/TOOLS/ghidra_dists/ghidra_9.1.2_PUBLIC/ghidraRun ; exit;
+: 1591888273:0;cp README.md June_Export
+: 1591888276:0;cp -r hardware_teardown_photos June_Export
+: 1591888330:0;ls
+: 1591888333:0;ls -lah
+: 1591888348:0;mv Wyze_Camera_V2_2020_06_11.gar June_Export
+: 1591888349:0;ls
+: 1591888370:0;/Users/aa26678/Desktop/TOOLS/ghidra_dists/ghidra_9.1.2_PUBLIC/ghidraRun ; exit;
+: 1591888370:0;cd June_Export
+: 1591888372:0;ls
+: 1591888374:0;vim README.md
+: 1591888463:0;ls
+: 1591888467:0;cd ../
+: 1591888467:0;ls
+: 1591888501:0;mv June_Export Wyze_Cam_V2_RE_06112020.tgz
+: 1591888524:0;mv Wyze_Cam_V2_RE_06112020.tgz Wyze_Cam_V2_RE_06112020/
+: 1591888541:0;tar -czf Wyze_Cam_V2_RE_06112020.tgz Wyze_Cam_V2_RE_06112020/
+: 1591888550:0;rm Wyze_Cam_V2_RE_06112020.tgz
+: 1591888554:0;tar -cvzf Wyze_Cam_V2_RE_06112020.tgz Wyze_Cam_V2_RE_06112020/
+: 1591889640:0;cd Desktop
+: 1591889641:0;cd dotfiles
+: 1591889642:0;ls
+: 1591889643:0;git status
+: 1591889644:0;git pull
+: 1591889649:0;ls ~/.ghidra
+: 1591889652:0;ls -la ~/.ghidra
+: 1591889703:0;cp -r ~/.ghidra/.ghidra_9.1.2_PUBLIC ./ghidra_9.1.2_PUBLIC
+: 1591889705:0;ls
+: 1591889707:0;cd ghidra_9.1.2_PUBLIC
+: 1591889707:0;ls
+: 1591889710:0;cd tools
+: 1591889710:0;ls
+: 1591889713:0;cd ../../
+: 1591889713:0;ls
+: 1591889719:0;git rm -rf ghidra
+: 1591889722:0;git add ghidra_9.1.2_PUBLIC
+: 1591889749:0;ls
+: 1591889750:0;git status
+: 1591889758:0;git commit -a -m "updating ghidra stuff"
+: 1591889760:0;mkdir wallpapers
+: 1591889762:0;cd wallpapers
+: 1591889764:0;ls ~/Do
+: 1591889767:0;ls ~/Documents
+: 1591889774:0;cp ~/Documents/*.jpg ./
+: 1591889781:0;cp ~/Documents/*.png ./
+: 1591889786:0;cp ~/Documents/*.jpeg ./
+: 1591889803:0;ls
+: 1591889808:0;ls ~/Documents
+: 1591889812:0;git add ./*
+: 1591889816:0;git commit -a -m "adding wallpapers"
+: 1591889828:0;mv ~/Desktop/frog_car.jpg ./
+: 1591889829:0;git add *
+: 1591889832:0;git commit -a -m "Adding frog car"
+: 1591889872:0;ls
+: 1591889873:0;git push
+: 1591889888:0;ls
+: 1591889894:0;cat ~/Desktop/KEYS/github_id_rsa
+: 1591889935:0;ls ~/Desktop/KEYS
+: 1591889943:0;cat ~/Desktop/KEYS/github_id_rsa
+: 1591889945:0;cat ~/Desktop/KEYS/github_id_rsa.pub
+: 1591889946:0;ls
+: 1591889948:0;git status
+: 1591889951:0;git push
+: 1591889964:0;ls ~/.ssh
+: 1591889970:0;cd ../
+: 1591889972:0;ls
+: 1591889974:0;mkdir foo
+: 1591889976:0;cd foo
+: 1591889986:0;git clone https://github.com/aidielse/dotfiles.git
+: 1591891253:0;git clone git@github.com/aidielse/dotfiles.git
+: 1591891293:0;git clone ssh://git@github.com:aidielse/dotfiles.git
+: 1591891313:0;git clone git@github.com:aidielse/dotfiles.git
+: 1591891320:0;cd dotfiles/
+: 1591891321:0;ls
+: 1591891330:0;cp -r ~/Desktop/dotfiles/wallpapers/ ./
+: 1591891336:0;cp -r ~/Desktop/dotfiles/ghidra_9.1.2_PUBLIC ./
+: 1591891350:0;ls
+: 1591891358:0;mkdir wallpapers
+: 1591891362:0;mv *.png wallpapers
+: 1591891366:0;mv *.jpg wallpapers
+: 1591891366:0;ls
+: 1591891372:0;mv *.jpeg ./wallpapers
+: 1591891373:0;ls
+: 1591891378:0;git rm -rf ghidra
+: 1591891382:0;git commit -a -m "updating dirs"
+: 1591891384:0;git push
+: 1591891401:0;ls
+: 1591891410:0;cd iterm
+: 1591891410:0;ls
+: 1591891412:0;cd ../
+: 1591891412:0;ls
+: 1591891414:0;cd iterm
+: 1591891438:0;ls -lah ~
+: 1591891450:0;ls ~/.android
+: 1591891453:0;ls -la ~/.android
+: 1591891467:0;cp -r ~/.atom/ atom/
+: 1591891470:0;mv atom ../
+: 1591891478:0;ls ~/.config
+: 1591891485:0;cp -r ~/.config ./config
+: 1591891492:0;ls -lah ~/.cache
+: 1591891504:0;vim ~/.gitconfig
+: 1591891514:0;ls -lah ~/
+: 1591891518:0;ls -lah ~/.idapro
+: 1591891528:0;cp -r ~/.oh-my-zsh oh-my-zsh/
+: 1591891540:0;cd Desktop
+: 1591891543:0;rm -rf dotfiles
+: 1591891548:0;rm -rf oh-my-zsh
+: 1591891549:0;cd ../
+: 1591891549:0;ls
+: 1591891551:0;cd iterm
+: 1591891551:0;ls
+: 1591891553:0;mv config ../
+: 1591891554:0;ls -lah
+: 1591891555:0;cd ../
+: 1591891555:0;ls
+: 1591891556:0;cd ../
+: 1591891557:0;ls
+: 1591891559:0;mv dotfiles ../
+: 1591891560:0;cd ../
+: 1591891563:0;rmdir foo
+: 1591891563:0;cd dotfiles
+: 1591891564:0;ls
+: 1591891569:0;cp -r ~/.oh-my-zsh oh-my-zsh/
+: 1591891973:0;mv ~/Downloads/JoJo\'s_Bizarre_Adventure_Jojo_Jojolion_anime_manga_Hirohiko_Araki_Steel_Ball_Run_Johnny_Joestar-1595871.jpg\!d.jpg ~/Documents
+: 1591892467:0;ls ~/Downloads
+: 1591892475:0;mv ~/Downloads/JoJo\'s_Bizarre_Adventure_Jojo_Jojolion_anime_manga_Hirohiko_Araki_Steel_Ball_Run_Johnny_Joestar-1595871.jpg\!d\(1\).jpg ~/Documents
+: 1591892529:0;mv ~/Downloads/sbr_wp.jpg ~/Documents
+: 1591892575:0;ls
+: 1591892583:0;mv ~/Documents/sbr_wp.jpg ./wallpapers
+: 1591892586:0;ls ~/
+: 1591892587:0;ls -lah ~/
+: 1591892591:0;ls
+: 1591892595:0;cd files
+: 1591892595:0;ls
+: 1591892604:0;mv ~/.tmux.conf ./tmux.conf
+: 1591892608:0;cd ../
+: 1591892614:0;mv ~/.p10k.zsh p10k.zsh
+: 1591892619:0;ls ~/.ssh
+: 1591892644:0;cp files/tmux.conf ~/.tmux.conf
+: 1591892653:0;cp -r ~/.vim/ vim/
+: 1591892654:0;ls
+: 1591892654:0;cd files
+: 1591892655:0;ls
+: 1591892660:0;git rm -rf vim/
+: 1591892662:0;ls
+: 1591892667:0;mv bashrc ../
+: 1591892669:0;mv p10k.zsh ../
+: 1591892671:0;mv tmux.conf ../
+: 1591892671:0;ls
+: 1591892674:0;mv zshrc ../
+: 1591892674:0;ls
+: 1591892676:0;cd ../
+: 1591892682:0;cp -r ~/.zsh_history zsh_history
