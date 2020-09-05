@@ -14,7 +14,7 @@ sudo apt-get -y install libllvm10 llvm-10 llvm-10-dev llvm-10-doc llvm-10-exampl
 # clang
 sudo apt-get -y install clang-10 clang-tools-10 clang-10-doc libclang-common-10-dev libclang-10-dev libclang1-10 clang-format-10 python3-clang-10 clang --fix-missing
 # Misc
-sudo apt-get -y install nmap guile-2.0 valgrind hexdiff qemu --fix-missing
+sudo apt-get -y install nmap guile-2.0 valgrind hexdiff qemu ruby binutils file cpio rpm2cpio zstd rpm --fix-missing
 
 echo "[+] Done!"
 
@@ -52,6 +52,23 @@ sudo chmod 4555 $ASLR_LOC
 sudo rm $ASLRC_LOC
 echo "[+] Done!"
 
+if ! command -v one_gadget &> /dev/null
+then
+  echo "[+] Installing one_gadget!"
+  sudo gem install one_gadget
+else
+  echo "[+] Detected existing one_gadget installation, Skipping..."
+fi
+
+if ! command -v ROPgadget &> /dev/null
+then
+  echo "[+] Installing ROPgadget!"
+  python2 -m pip install --upgrade ROPgadget
+else
+  echo "[+] Detected existing ROPgadget installation, Skipping..."
+fi
+
+# Begin tools dir installations
 if [ ! -d ~/tools ]
 then
   mkdir ~/tools
@@ -60,7 +77,6 @@ else
   echo "[+] tools directory found in home folder. "
 fi
 
-# Begin tools dir installations
 pushd ~/tools
 
 if [ ! -d ./pwndbg ]
@@ -74,8 +90,79 @@ then
 else
   echo "[+] pwndbg already installed, skipping..."
 fi
-popd
+
+if [ ! -d ./ALLirt ]
+then
+  echo "[+] Setting up ALLirt!"
+  git clone https://github.com/push0ebp/ALLirt
+  pushd ALLirt
+  python3 -m pip install -r requirements.txt
+  popd
+  echo "[+] Done!"
+else
+  echo "[+] ALLirt already installed, skipping..."
+fi
+
+if [ ! -d ./libc-database ]
+then
+  echo "[+] Setting up libc-database!"
+  git clone https://github.com/niklasb/libc-database
+  pushd libc-database
+  echo "[+] getting all libc's, this may take a while..."
+  ./get ubuntu debian arch centos rpm
+  popd
+  echo "[+] Done!"
+else
+  echo "[+] libc-database already installed, skipping..."
+fi
+
+if [ ! -d ./keystone ]
+then
+  echo "[+] Setting up local keystone installation!"
+  git clone https://github.com/keystone-engine/keystone
+  pushd keystone
+  if [ ! -d ./build ]
+  then
+    mkdir build
+  fi
+  pushd build
+  ../make-share.sh
+  echo "[+] installing kstool!"
+  sudo make install
+  sudo ln -s /usr/local/lib/libkeystone.so.0 /lib/libkeystone.so.0
+  popd
+  popd
+  echo "[+] Done!"
+else
+  echo "[+] keystone already installed, skipping..."
+fi
+
+if [[ $(uname -i) == i*86 ]]; then
+  echo "[+] x86_32 architecture detected, skipping QEMU install..."
+else
+  if [ ! -d ./qemu ]
+  then
+    echo "[+] Setting up local QEMU installation!"
+    git clone https://github.com/qemu/qemu
+    pushd qemu
+    if [ ! -d ./build ]
+    then
+      mkdir build
+    fi
+    pushd build
+    ../configure
+    make -j$(nproc)
+    popd
+    popd
+    echo "[+] Done!"
+  else
+    echo "[+] QEMU already installed, skipping..."
+  fi
+fi
+
 # End tools dir installations
+popd
+
 # Begin angr install
 if [ ! -d ~/.virtualenvs/angr ]
 then
