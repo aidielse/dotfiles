@@ -129,6 +129,7 @@ then
 
   echo "[+] Installing powerlevel10k zsh theme."
   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+  # generate default conf files and quit.
   zsh -c "exit"
 
   cp ./files/p10k.zsh ~/.p10k.zsh
