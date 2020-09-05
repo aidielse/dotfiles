@@ -1,0 +1,25 @@
+syntax on
+set t_Co=256
+colorscheme jellybeans
+
+" general vim config things
+set tabstop=4 
+set softtabstop=4
+set shiftwidth=4
+set cursorline 
+set expandtab
+set ai
+set number
+set ruler
+set autoindent
+set wildmenu 
+set mouse=nic
+set showmatch
+
+set foldenable
+set foldmethod=indent
+set foldlevelstart=10
+set foldnestmax=10
+nnoremap <space> za
+
+
