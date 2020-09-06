@@ -223,6 +223,8 @@ then
   echo "[+] Copied .p10k.zsh to your home directory."
   cp ./files/zshrc ~/.zshrc
   echo "[+] Copied .zshrc file to your home directory."
+
+  sudo ln -s /usr/bin/zsh /usr/local/bin/zsh
   echo "[+] zsh setup complete! Be sure to configure your terminal profile and use the included fonts!"
 else
   echo "[+] Detected existing zsh installation, Skipping..."
