@@ -103,18 +103,6 @@ else
   echo "[+] ALLirt already installed, skipping..."
 fi
 
-if [ ! -d ./libc-database ]
-then
-  echo "[+] Setting up libc-database!"
-  git clone https://github.com/niklasb/libc-database
-  pushd libc-database
-  echo "[+] getting all libc's, this may take a while..."
-  ./get ubuntu debian arch centos rpm
-  popd
-  echo "[+] Done!"
-else
-  echo "[+] libc-database already installed, skipping..."
-fi
 
 if [ ! -d ./keystone ]
 then

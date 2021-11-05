@@ -1,0 +1,3 @@
+Acquire::http::Proxy "http://llproxy.llan.ll.mit.edu:8080";
+Acquire::https::Proxy "https://llproxy.llan.ll.mit.edu:8080";
+
