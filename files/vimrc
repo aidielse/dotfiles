@@ -22,4 +22,4 @@ set foldlevelstart=10
 set foldnestmax=10
 nnoremap <space> za
 
-
+set backspace=indent,eol,start
